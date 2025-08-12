@@ -1,9 +1,9 @@
 
 import React, { createContext, useState, useEffect, useContext, ReactNode } from 'react';
-import { en } from '../locales/en';
 import { el } from '../locales/el';
+import { en } from '../locales/en';
 
-type Translations = typeof en;
+type Translations = typeof el;
 
 interface LanguageContextType {
   language: string;

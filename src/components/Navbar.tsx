@@ -15,9 +15,9 @@ export default function Navbar() {
   
   const navLinks = [
     { name: t.nav.home, path: "/" },
-    { name: t.nav.apartments, path: "/apartments" },
-    { name: t.nav.amenities, path: "/amenities" },
-    { name: t.nav.gallery, path: "/gallery" },
+    { name: t.nav.services, path: "/services" },
+    { name: t.nav.projects, path: "/projects" },
+    { name: t.nav.about, path: "/about" },
     { name: t.nav.contact, path: "/contact" }
   ];
 
@@ -50,7 +50,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center space-x-2">
           <ThemeToggle />
           <Button asChild className="btn-primary">
-            <Link to="/booking">{t.nav.bookNow}</Link>
+            <a href="tel:+306972362235">{t.nav.callNow}</a>
           </Button>
         </div>
 
@@ -84,9 +84,9 @@ export default function Navbar() {
             </div>
             
             <Button asChild className="w-full btn-primary mt-6">
-              <Link to="/booking" onClick={() => setMobileMenuOpen(false)}>
-                {t.nav.bookNow}
-              </Link>
+              <a href="tel:+306972362235" onClick={() => setMobileMenuOpen(false)}>
+                {t.nav.callNow}
+              </a>
             </Button>
           </div>
         </div>
