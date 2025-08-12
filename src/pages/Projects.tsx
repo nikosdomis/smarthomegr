@@ -6,6 +6,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { CheckCircle } from "lucide-react";
+import smartHomeScreen from "@/assets/smart-home-screen.jpg";
+import automatedBlinds from "@/assets/automated-blinds.jpg";
+import smartBlindsRoom from "@/assets/smart-blinds-room.jpg";
 
 export default function Projects() {
   const { t } = useLanguage();
@@ -393,6 +396,72 @@ export default function Projects() {
                   {/* Features List */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {t.projects.featured.dimmableLed.features.map((feature, index) => (
+                      <div key={index} className="flex items-start gap-3">
+                        <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                        <span className="text-sm">{feature}</span>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Automated Blinds Project */}
+              <Card className="overflow-hidden">
+                <CardHeader>
+                  <div className="flex items-center justify-between mb-4">
+                    <Badge variant="secondary" className="mb-2">
+                      {t.projects.categories.smartHome}
+                    </Badge>
+                  </div>
+                  <CardTitle className="text-2xl md:text-3xl mb-4">
+                    {t.projects.featured.automatedBlinds.title}
+                  </CardTitle>
+                  <CardDescription className="text-base leading-relaxed">
+                    {t.projects.featured.automatedBlinds.description}
+                  </CardDescription>
+                </CardHeader>
+                
+                <CardContent className="space-y-8">
+                  {/* Image Carousel */}
+                  <div className="relative">
+                    <Carousel className="w-full">
+                      <CarouselContent>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src={smartHomeScreen}
+                              alt="Οθόνη ελέγχου έξυπνου σπιτιού για αυτοματισμό στορίων"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src={automatedBlinds}
+                              alt="Αυτοματοποιημένα ηλεκτρικά στόρια σε παράθυρο"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src={smartBlindsRoom}
+                              alt="Σαλόνι με έξυπνα αυτοματοποιημένα στόρια"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                      </CarouselContent>
+                      <CarouselPrevious className="left-4" />
+                      <CarouselNext className="right-4" />
+                    </Carousel>
+                  </div>
+
+                  {/* Features List */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {t.projects.featured.automatedBlinds.features.map((feature, index) => (
                       <div key={index} className="flex items-start gap-3">
                         <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                         <span className="text-sm">{feature}</span>

@@ -388,6 +388,20 @@ export const en = {
           "Energy savings",
           "Long-term reliability"
         ]
+      },
+      automatedBlinds: {
+        title: "Automated Electric Blinds",
+        description: "Fully automated electric blinds system with smart light and time-based control, mobile app and touch screen operation.",
+        features: [
+          "Automatic opening in the morning or with sunlight",
+          "Automatic closing in the evening",
+          "Mobile app remote control",
+          "Touch screen control in living room",
+          "Classic switches for local control",
+          "Light and motion sensors",
+          "Scenario programming",
+          "Energy savings and UV protection"
+        ]
       }
     }
   }
