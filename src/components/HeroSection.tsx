@@ -48,7 +48,7 @@ export default function HeroSection() {
             {t.hero.subtitle}
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            {t.hero.title}
+            Smart Home GR
           </h1>
           <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
             {t.hero.description}
