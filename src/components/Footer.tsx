@@ -68,7 +68,7 @@ export default function Footer() {
               <h5 className="text-lg font-semibold mb-3">Ακολουθήστε μας</h5>
               <div className="flex space-x-3">
                 <a 
-                  href="https://facebook.com/smarthomegr" 
+                  href="https://https://www.facebook.com/p/Smart-Home-GR-Electrical-solutions-61565048170292/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-primary/10 hover:bg-primary text-primary hover:text-primary-foreground transition-all duration-300"
