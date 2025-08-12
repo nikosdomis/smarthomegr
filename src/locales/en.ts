@@ -10,7 +10,7 @@ export const en = {
   hero: {
     subtitle: "ELECTRICAL SOLUTIONS & SMART HOMES",
     title: "Smart Home GR - Electrical Solutions ⚡️",
-    description: "Specialized electrical services and smart home solutions in Messolonghi. KNX systems, PLC and cutting-edge technologies for your home and business.",
+    description: "Specialized electrical services and smart home solutions. KNX systems, PLC and cutting-edge technologies for your home and business.",
     callUs: "Call Us",
     ourServices: "Our Services",
     scrollDown: "Scroll Down"
