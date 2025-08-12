@@ -57,8 +57,18 @@ export default function Index() {
         <HeroSection />
         
         {/* Welcome Section */}
-        <section id="welcome" className="section">
-          <div className="container">
+        <section 
+          id="welcome" 
+          className="section relative"
+          style={{
+            backgroundImage: 'url(/lovable-uploads/bb2394aa-d128-4555-b365-b399ee01020a.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
+        >
+          <div className="absolute inset-0 bg-background/80 dark:bg-background/85"></div>
+          <div className="container relative z-10">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in [animation-delay:100ms]">
                 <span className="text-sm text-primary font-medium uppercase tracking-wider">
@@ -99,13 +109,6 @@ export default function Index() {
                   <img 
                     src="/lovable-uploads/cc7d9bf9-c4f2-43e1-8321-1284d8cf9763.png"
                     alt="Smart home setup με laptop και συσκευές" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="absolute -bottom-3 -right-3 w-1/3 rounded-2xl overflow-hidden shadow-xl">
-                  <img 
-                    src="/lovable-uploads/bb2394aa-d128-4555-b365-b399ee01020a.png"
-                    alt="Ποικιλία smart home αισθητήρων και συσκευών" 
                     className="w-full h-full object-cover"
                   />
                 </div>
