@@ -18,7 +18,7 @@ export default function Footer() {
                 alt="Smart Home GR Logo" 
                 className="h-10 w-auto"
               />
-              <h4 className="text-xl font-bold">Smart Home GR</h4>
+              
             </div>
             <p className="text-muted-foreground mb-4">
               {t.footer.description}
