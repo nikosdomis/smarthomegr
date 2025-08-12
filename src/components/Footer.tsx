@@ -118,8 +118,8 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-border pt-8 mt-8 text-center text-muted-foreground relative">
-          {/* Logo positioned on the border line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 -top-6">
+          {/* Logo positioned on the right side of the border line */}
+          <div className="absolute right-8 -top-6">
             <div className="bg-card px-4">
               <img 
                 src="/lovable-uploads/7040a7b4-ad35-4bb0-b115-a6e1f04e6c50.png" 
