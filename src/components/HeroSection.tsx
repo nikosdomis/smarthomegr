@@ -35,8 +35,13 @@ export default function HeroSection() {
         }}
       />
       
-      {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/60" />
+      {/* Gradient overlay with better fading */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/70 animate-fade-in" />
+      
+      {/* Center text area with extra overlay for readability */}
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="w-full max-w-4xl h-2/3 bg-gradient-radial from-black/40 via-black/20 to-transparent animate-fade-in [animation-delay:500ms]" />
+      </div>
       
       {/* Content */}
       <div
