@@ -206,6 +206,135 @@ export default function Projects() {
                   </div>
                 </CardContent>
               </Card>
+
+              {/* Comprehensive Lighting Project */}
+              <Card className="overflow-hidden">
+                <CardHeader>
+                  <div className="flex items-center justify-between mb-4">
+                    <Badge variant="secondary" className="mb-2">
+                      {t.projects.categories.smartHome}
+                    </Badge>
+                  </div>
+                  <CardTitle className="text-2xl md:text-3xl mb-4">
+                    {t.projects.featured.comprehensiveLighting.title}
+                  </CardTitle>
+                  <CardDescription className="text-base leading-relaxed">
+                    {t.projects.featured.comprehensiveLighting.description}
+                  </CardDescription>
+                </CardHeader>
+                
+                <CardContent className="space-y-8">
+                  {/* Image Carousel */}
+                  <div className="relative">
+                    <Carousel className="w-full">
+                      <CarouselContent>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/b379062c-9c67-43e2-9cc7-a661fd684904.png"
+                              alt="Εγκατεστημένος φωτισμός οροφής LED"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/cb8f2691-b3bb-41ba-9588-c926d0c11363.png"
+                              alt="Μοντέρνος κρεμαστός φωτισμός LED"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/5c0c75e8-95e7-429d-b8e5-9f53cf0756b3.png"
+                              alt="Γραμμικός φωτισμός LED σε οροφή"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/6255b85f-d3da-49a5-92f6-ea586a018027.png"
+                              alt="Φωτισμός κουζίνας κάτω από ντουλάπια"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/25199c91-7336-4dfe-855f-083dd7a397d6.png"
+                              alt="Σποτ φωτισμός σε ράγα"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/8ace45d0-1948-4f95-8104-ea95a27f37ea.png"
+                              alt="Σύστημα θυροτηλεόρασης με φωτισμό LED"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/6b3def28-cfea-44a1-a9cf-f5e8dc80f0df.png"
+                              alt="Φωτισμός δαπέδου LED κάτω από πόρτα"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/660e290f-7038-4060-b9f7-71c739a17f5d.png"
+                              alt="Καθρέφτης μπάνιου με οπίσθιο φωτισμό LED"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/e83b1dff-b916-44a6-a431-2559071c03c5.png"
+                              alt="Φωτισμός οροφής μπάνιου με ταινία LED"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/0b8e839b-41c0-4840-8135-0810057802fe.png"
+                              alt="Φωτισμός ντουζιέρας με ταινία LED στην οροφή"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                      </CarouselContent>
+                      <CarouselPrevious className="left-4" />
+                      <CarouselNext className="right-4" />
+                    </Carousel>
+                  </div>
+
+                  {/* Features List */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {t.projects.featured.comprehensiveLighting.features.map((feature, index) => (
+                      <div key={index} className="flex items-start gap-3">
+                        <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                        <span className="text-sm">{feature}</span>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
               
             </div>
           </div>

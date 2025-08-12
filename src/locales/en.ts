@@ -360,6 +360,20 @@ export const en = {
           "Long LED lifespan",
           "Easy installation and maintenance"
         ]
+      },
+      comprehensiveLighting: {
+        title: "Comprehensive Lighting Study & Installation",
+        description: "Design and implementation of complete lighting system using LED technology. Future provision for automation, focusing on safety, comfort and economy.",
+        features: [
+          "Latest generation LED technology",
+          "Energy efficiency and economy",
+          "Provision for smart automation",
+          "Safe installation with certifications",
+          "Custom design for each space",
+          "Long-term warranty and support",
+          "Safety and comfort lighting",
+          "Economical operating cost"
+        ]
       }
     }
   }
