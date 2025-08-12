@@ -90,47 +90,29 @@ export default function Index() {
                 </Button>
               </div>
               
-             <div className="relative animate-fade-in [animation-delay:300ms] h-96">
-  {/* Εικόνα 1 */}
-  <div className="absolute top-0 left-0 w-60 h-40 z-10">
-    <img
-      src="/lovable-uploads/1442a232-0a7e-418e-b1c8-28bb97207e50.png"
-      alt="Smart home συσκευές και αισθητήρες"
-      className="w-full h-full object-cover rounded-2xl shadow-lg"
-      style={{ backgroundColor: 'transparent' }}
-    />
-  </div>
-
-  {/* Εικόνα 2 */}
-  <div className="absolute top-12 right-8 w-56 h-36 z-20">
-    <img
-      src="/lovable-uploads/4576d2bf-b167-47fa-a22f-a6756998397d.png"
-      alt="Έλεγχος έξυπνου σπιτιού από smartphone"
-      className="w-full h-full object-cover rounded-2xl shadow-lg"
-      style={{ backgroundColor: 'transparent' }}
-    />
-  </div>
-
-  {/* Εικόνα 3 */}
-  <div className="absolute bottom-16 left-12 w-52 h-32 z-30">
-    <img
-      src="/lovable-uploads/cc7d9bf9-c4f2-43e1-8321-1284d8cf9763.png"
-      alt="Smart home setup με laptop και συσκευές"
-      className="w-full h-full object-cover rounded-2xl shadow-lg"
-      style={{ backgroundColor: 'transparent' }}
-    />
-  </div>
-
-  {/* Εικόνα 4 */}
-  <div className="absolute bottom-0 right-16 w-48 h-28 z-40">
-    <img
-      src="/lovable-uploads/bb2394aa-d128-4555-b365-b399ee01020a.png"
-      alt="Διάταξη έξυπνου σπιτιού"
-      className="w-full h-full object-cover rounded-2xl shadow-lg"
-      style={{ backgroundColor: 'transparent' }}
-    />
-  </div>
-</div>
+              <div className="relative animate-fade-in [animation-delay:300ms]">
+                <div className="aspect-[4/3] rounded-2xl overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/1442a232-0a7e-418e-b1c8-28bb97207e50.png"
+                    alt="Smart home συσκευές και αισθητήρες" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="absolute -bottom-6 -left-6 w-2/3 rounded-2xl overflow-hidden shadow-xl">
+                  <img 
+                    src="/lovable-uploads/4576d2bf-b167-47fa-a22f-a6756998397d.png"
+                    alt="Έλεγχος έξυπνου σπιτιού από smartphone" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="absolute -top-6 -right-6 w-1/2 rounded-2xl overflow-hidden shadow-xl">
+                  <img 
+                    src="/lovable-uploads/cc7d9bf9-c4f2-43e1-8321-1284d8cf9763.png"
+                    alt="Smart home setup με laptop και συσκευές" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </section>
