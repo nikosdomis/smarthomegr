@@ -15,27 +15,35 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Sophia Martinez",
-    location: "New York, USA",
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=faces",
-    content: "My family and I had the most wonderful stay at MareSereno. The apartment was immaculate, with breathtaking sea views. The staff went above and beyond to make our vacation special.",
+    name: "Γιάννης Παπαδόπουλος",
+    location: "Μεσολόγγι, Ελλάδα",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=faces",
+    content: "Εξαιρετική εργασία! Εγκατέστησαν ολοκληρωμένο σύστημα έξυπνου σπιτιού στο σπίτι μου. Πολύ επαγγελματική προσέγγιση και άψογη δουλειά. Τα συστήνω ανεπιφύλακτα!",
     rating: 5
   },
   {
     id: 2,
-    name: "Marco Rossi",
-    location: "Rome, Italy",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=faces",
-    content: "Absolutely perfect location, steps away from the beach. The apartment had everything we needed and more. The modern amenities combined with the traditional coastal charm created a truly magical experience.",
+    name: "Μαρία Κωνσταντίνου",
+    location: "Αγρίνιο, Ελλάδα",
+    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=faces",
+    content: "Άριστη εξυπηρέτηση και ποιότητα! Έλυσαν όλα τα ηλεκτρολογικά προβλήματα του σπιτιού μου γρήγορα και αποτελεσματικά. Πολύ συνεπείς στα ραντεβού.",
     rating: 5
   },
   {
     id: 3,
-    name: "Emma Johnson",
-    location: "London, UK",
+    name: "Δημήτρης Νικολάου",
+    location: "Πάτρα, Ελλάδα",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=faces",
+    content: "Φανταστική δουλειά στην εγκατάσταση του συστήματος συναγερμού και των έξυπνων διακοπτών. Τώρα ελέγχω όλο το σπίτι από το κινητό μου. Τέλεια εξυπηρέτηση!",
+    rating: 5
+  },
+  {
+    id: 4,
+    name: "Ελένη Γεωργίου",
+    location: "Μεσολόγγι, Ελλάδα",
     avatar: "https://images.unsplash.com/photo-1569913486515-b74bf7751574?w=150&h=150&fit=crop&crop=faces",
-    content: "We spent a wonderful week at this beachfront paradise. The sunrise views from our terrace were worth the trip alone. Exceptionally clean and beautifully designed spaces.",
-    rating: 4
+    content: "Πολύ ικανοποιημένη από την εγκατάσταση του φωτισμού LED και των αυτοματισμών. Εξοικονόμησα πολλά χρήματα στον λογαριασμό του ρεύματος. Συνιστώ ανεπιφύλακτα!",
+    rating: 5
   },
 ];
 
