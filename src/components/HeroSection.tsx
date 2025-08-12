@@ -43,17 +43,17 @@ export default function HeroSection() {
         className="relative h-full flex flex-col justify-center items-center text-center px-4"
         style={{ transform: `translateY(${contentY}px)` }}
       >
-        <div className="max-w-3xl animate-fade-in">
-          <span className="inline-block text-white/90 text-lg mb-4 tracking-wide border-b border-white/30 pb-2">
+        <div className="max-w-3xl">
+          <span className="inline-block text-white/90 text-lg mb-4 tracking-wide border-b border-white/30 pb-2 animate-fade-in">
             {t.hero.subtitle}
           </span>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 animate-fade-in [animation-delay:300ms]">
             Smart Home GR
           </h1>
-          <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto animate-fade-in [animation-delay:600ms]">
             {t.hero.description}
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in [animation-delay:900ms]">
             <Button asChild size="lg" variant="heroSolid" className="min-w-[200px] rounded-full transform transition-all duration-300 hover:translate-y-[-2px]">
               <a href="tel:+306972362235">{t.hero.callUs}</a>
             </Button>
