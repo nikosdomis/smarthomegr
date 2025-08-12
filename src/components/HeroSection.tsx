@@ -56,7 +56,7 @@ export default function HeroSection() {
             <img 
               src="/lovable-uploads/522a1608-7b88-46b4-9218-874a094c3a4c.png" 
               alt="Smart Home GR Logo" 
-              className="h-16 md:h-20 lg:h-24 w-auto"
+              className="h-20 md:h-24 lg:h-28 w-auto"
             />
             Smart Home GR
           </h1>
