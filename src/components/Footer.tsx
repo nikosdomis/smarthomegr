@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div className="animate-fade-in [animation-delay:100ms]">
-            <h4 className="text-xl font-bold mb-4">MareSereno</h4>
+            <h4 className="text-xl font-bold mb-4">Smart Home GR</h4>
             <p className="text-muted-foreground mb-4">
               {t.footer.description}
             </p>
@@ -34,24 +34,13 @@ export default function Footer() {
           
           <div className="animate-fade-in [animation-delay:200ms]">
             <h4 className="text-xl font-bold mb-4">{t.footer.quickLinks}</h4>
-            <ul className="space-y-2">
-              {[
-                { name: t.nav.home, path: "/" },
-                { name: t.nav.apartments, path: "/apartments" },
-                { name: t.nav.amenities, path: "/amenities" },
-                { name: t.nav.gallery, path: "/gallery" },
-                { name: t.nav.contact, path: "/contact" },
-                { name: t.nav.bookNow, path: "/booking" },
-              ].map((link) => (
-                <li key={link.name}>
-                  <Link 
-                    to={link.path} 
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
+            <ul className="space-y-3">
+              <li><Link to="/" className="hover:text-primary transition-colors">{t.nav.home}</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">{t.nav.services}</Link></li>
+              <li><Link to="/projects" className="hover:text-primary transition-colors">{t.nav.projects}</Link></li>
+              <li><Link to="/about" className="hover:text-primary transition-colors">{t.nav.about}</Link></li>
+              <li><Link to="/contact" className="hover:text-primary transition-colors">{t.nav.contact}</Link></li>
+              <li><a href="tel:+306972362235" className="hover:text-primary transition-colors">{t.nav.callNow}</a></li>
             </ul>
           </div>
           
@@ -61,18 +50,16 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 mr-2 mt-0.5 text-primary" />
                 <span className="text-muted-foreground">
-                  123 Seaside Boulevard<br />
-                  Costa Bella, 12345<br />
-                  Italy
+                  {t.footer.address}
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 mr-2 text-primary" />
-                <span className="text-muted-foreground">+39 123 4567 890</span>
+                <span className="text-muted-foreground">{t.footer.phone}</span>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 mr-2 text-primary" />
-                <span className="text-muted-foreground">info@maresereno.com</span>
+                <span className="text-muted-foreground">info@smarthomegr.com</span>
               </li>
             </ul>
           </div>
@@ -100,7 +87,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-border pt-8 mt-8 text-center text-muted-foreground">
-          <p>&copy; {currentYear} MareSereno. {t.footer.allRights}</p>
+          <p>&copy; {currentYear} Smart Home GR - Electrical Solutions. {t.footer.allRights}</p>
         </div>
       </div>
     </footer>
