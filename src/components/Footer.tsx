@@ -83,7 +83,7 @@ export default function Footer() {
                   <span className="sr-only">TikTok</span>
                 </a>
                 <a 
-                  href="https://instagram.com/smarthomegr" 
+                  href="https://www.instagram.com/smart_home__gr/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-primary/10 hover:bg-primary text-primary hover:text-primary-foreground transition-all duration-300"

@@ -104,7 +104,7 @@ export default function Contact() {
                 </a>
                 
                 <a 
-                  href="https://instagram.com/smarthomegr" 
+                  href="https://www.instagram.com/smart_home__gr/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="group flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 hover:bg-primary transition-all duration-300"
