@@ -206,7 +206,7 @@ export const el = {
     phone: "Τηλέφωνο",
     email: "Email",
     hours: "Ώρες Λειτουργίας",
-    available247: "Διαθέσιμοι 24/7",
+    available247: "Διαθέσιμοι 24 ώρες",
     emergencyService: "Υπηρεσία έκτακτης ανάγκης",
     sendMessage: "Στείλτε μας Μήνυμα",
     fullName: "Πλήρες Όνομα",
