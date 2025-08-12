@@ -31,7 +31,7 @@ export default function About() {
         </section>
         
         <section className="py-16 relative" style={{ backgroundImage: `url('/lovable-uploads/55d7b6cc-5088-4747-beb7-0fcac32101fb.png')`, backgroundSize: 'cover', backgroundPosition: 'center', filter: 'grayscale(100%)' }}>
-          <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 via-gray-800/70 to-gray-900/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-800/85 to-gray-900/90"></div>
           <div className="container relative z-10">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div>
