@@ -16,7 +16,7 @@ export const en = {
     scrollDown: "Scroll Down"
   },
   footer: {
-    description: "Smart Home GR - Electrical Solutions. Specialized electrical services and smart home solutions in Messolonghi with 24-hour service.",
+    description: "Smart Home GR - Electrical Solutions. Specialized electrical services and smart home solutions with 24-hour service.",
     quickLinks: "Quick Links",
     contact: "Contact",
     newsletter: "Updates",
@@ -24,7 +24,7 @@ export const en = {
     yourEmail: "Your email address",
     subscribe: "Subscribe",
     allRights: "All rights reserved.",
-    address: "Eth. Antistasis 32, Messolonghi 302 00",
+    address: "Eth. Antistasis, Messolonghi 302 00",
     phone: "+30 697 236 2235",
     hours: "Open 24 hours"
   },
