@@ -55,20 +55,18 @@ export default function Services() {
           
           return (
             <div key={category}>
-              {categoryIndex > 0 && (
-                <section className="py-16 relative overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-transparent"></div>
-                  <div className="container relative z-10">
-                    <div className="max-w-4xl mx-auto">
-                      <img 
-                        src={categoryImages[category as keyof typeof categoryImages]} 
-                        alt={categoryData.title}
-                        className="w-full h-64 md:h-80 object-cover rounded-2xl shadow-2xl animate-fade-in"
-                      />
-                    </div>
+              <section className="py-16 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-transparent"></div>
+                <div className="container relative z-10">
+                  <div className="max-w-4xl mx-auto">
+                    <img 
+                      src={categoryImages[category as keyof typeof categoryImages]} 
+                      alt={categoryData.title}
+                      className="w-full h-64 md:h-80 object-cover rounded-2xl shadow-2xl animate-fade-in"
+                    />
                   </div>
-                </section>
-              )}
+                </div>
+              </section>
               
               <section className="py-16">
                 <div className="container">
