@@ -16,20 +16,6 @@ export default function Footer() {
             <p className="text-muted-foreground mb-4">
               {t.footer.description}
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Facebook size={20} />
-                <span className="sr-only">Facebook</span>
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Instagram size={20} />
-                <span className="sr-only">Instagram</span>
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter size={20} />
-                <span className="sr-only">Twitter</span>
-              </a>
-            </div>
           </div>
           
           <div className="animate-fade-in [animation-delay:200ms]">
