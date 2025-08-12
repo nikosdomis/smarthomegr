@@ -360,7 +360,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/7ab3dc4f-7d86-463b-89e6-72cbc4769af7.png"
+                              src="/lovable-uploads/423759a7-9b01-494a-a8f3-28139dc33a42.png"
                               alt="Γραμμικός φωτισμός LED σε εξωτερικό χώρο"
                               className="w-full h-full object-cover"
                             />
@@ -369,7 +369,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/f62b6240-8960-4980-a7e2-052986ccadb6.png"
+                              src="/lovable-uploads/88cfac4b-f082-484d-b6d1-5ad16fbf6576.png"
                               alt="Περιμετρικός φωτισμός LED σε βεράντα"
                               className="w-full h-full object-cover"
                             />
@@ -378,7 +378,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/e4feeee4-a948-4b04-beb9-e4db6957a9be.png"
+                              src="/lovable-uploads/95318472-d238-4e79-a2c7-fb096bb7be54.png"
                               alt="Ντιμαρισμένος φωτισμός LED σε χαμηλή ένταση"
                               className="w-full h-full object-cover"
                             />
