@@ -7,6 +7,9 @@ export default function ThemeToggle() {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
+    // Check if we're in the browser
+    if (typeof window === 'undefined') return;
+    
     const isDarkMode = localStorage.getItem("theme") === "dark" || 
       (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches);
     
@@ -20,14 +23,15 @@ export default function ThemeToggle() {
   }, []);
 
   const toggleTheme = () => {
-    setIsDark(!isDark);
+    const newIsDark = !isDark;
+    setIsDark(newIsDark);
     
-    if (isDark) {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    } else {
+    if (newIsDark) {
       document.documentElement.classList.add("dark");
       localStorage.setItem("theme", "dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
     }
   };
 
@@ -37,11 +41,12 @@ export default function ThemeToggle() {
       size="icon"
       onClick={toggleTheme}
       className="rounded-full w-10 h-10 transition-all duration-300 hover:bg-muted"
+      aria-label="Toggle theme"
     >
       {isDark ? (
-        <Sun className="h-5 w-5 transition-transform duration-500 rotate-0" />
+        <Sun className="h-5 w-5 transition-transform duration-500" />
       ) : (
-        <Moon className="h-5 w-5 transition-transform duration-500 rotate-0" />
+        <Moon className="h-5 w-5 transition-transform duration-500" />
       )}
       <span className="sr-only">Toggle theme</span>
     </Button>
