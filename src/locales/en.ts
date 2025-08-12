@@ -173,6 +173,28 @@ export const en = {
             description: "Telecommunications and networking systems."
           }
         ]
+      },
+      evCharging: {
+        title: "Electric Vehicle Charging",
+        description: "Installation and maintenance of electric vehicle charging stations.",
+        items: [
+          {
+            title: "Home Wallbox",
+            description: "Installation of home chargers for electric cars."
+          },
+          {
+            title: "Public Charging Stations",
+            description: "Installation of public charging stations for businesses."
+          },
+          {
+            title: "Smart Charging",
+            description: "Smart charging systems with timers and applications."
+          },
+          {
+            title: "Maintenance & Support",
+            description: "Technical support and maintenance of electric vehicle chargers."
+          }
+        ]
       }
     }
   },

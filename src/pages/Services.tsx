@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Zap, Home, Settings, Wrench } from "lucide-react";
+import { Zap, Home, Settings, Wrench, Car } from "lucide-react";
 
 export default function Services() {
   const { t } = useLanguage();
@@ -37,7 +37,8 @@ export default function Services() {
           const icons = {
             electrical: <Zap className="h-8 w-8" />,
             smartHome: <Home className="h-8 w-8" />,
-            industrial: <Settings className="h-8 w-8" />
+            industrial: <Settings className="h-8 w-8" />,
+            evCharging: <Car className="h-8 w-8" />
           };
           
           return (
