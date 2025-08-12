@@ -90,29 +90,43 @@ export default function Index() {
                 </Button>
               </div>
               
-              <div className="relative animate-fade-in [animation-delay:300ms]">
-                <div className="aspect-[4/3] rounded-2xl overflow-hidden">
-                  <img 
-                    src="/lovable-uploads/1442a232-0a7e-418e-b1c8-28bb97207e50.png"
-                    alt="Smart home συσκευές και αισθητήρες" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="absolute -bottom-6 -left-6 w-2/3 rounded-2xl overflow-hidden shadow-xl">
-                  <img 
-                    src="/lovable-uploads/4576d2bf-b167-47fa-a22f-a6756998397d.png"
-                    alt="Έλεγχος έξυπνου σπιτιού από smartphone" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="absolute -top-6 -right-6 w-1/2 rounded-2xl overflow-hidden shadow-xl">
-                  <img 
-                    src="/lovable-uploads/cc7d9bf9-c4f2-43e1-8321-1284d8cf9763.png"
-                    alt="Smart home setup με laptop και συσκευές" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
+              <div className="relative animate-fade-in [animation-delay:300ms] grid grid-cols-2 gap-4">
+  {/* Μεγάλη κύρια εικόνα */}
+  <div className="col-span-2 rounded-2xl overflow-hidden">
+    <img
+      src="/lovable-uploads/1442a232-0a7e-418e-b1c8-28bb97207e50.png"
+      alt="Smart home συσκευές και αισθητήρες"
+      className="w-full h-full object-cover"
+    />
+  </div>
+
+  {/* Δεύτερη εικόνα */}
+  <div className="rounded-2xl overflow-hidden">
+    <img
+      src="/lovable-uploads/4576d2bf-b167-47fa-a22f-a6756998397d.png"
+      alt="Έλεγχος έξυπνου σπιτιού από smartphone"
+      className="w-full h-full object-cover"
+    />
+  </div>
+
+  {/* Τρίτη εικόνα */}
+  <div className="rounded-2xl overflow-hidden">
+    <img
+      src="/lovable-uploads/cc7d9bf9-c4f2-43e1-8321-1284d8cf9763.png"
+      alt="Smart home setup με laptop και συσκευές"
+      className="w-full h-full object-cover"
+    />
+  </div>
+
+  {/* Τέταρτη εικόνα */}
+  <div className="rounded-2xl overflow-hidden col-span-2">
+    <img
+      src="/lovable-uploads/bb2394aa-d128-4555-b365-b399ee01020a.png"
+      alt="Διάταξη έξυπνου σπιτιού"
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
             </div>
           </div>
         </section>
