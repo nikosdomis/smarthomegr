@@ -173,6 +173,28 @@ export const en = {
             description: "Telecommunications and networking systems."
           }
         ]
+      },
+      evCharging: {
+        title: "Electric Vehicle Charging",
+        description: "Modern charging solutions for electric vehicles at home and business.",
+        items: [
+          {
+            title: "Home Charging Stations",
+            description: "Installation of wallbox and charging stations for home use."
+          },
+          {
+            title: "Commercial Stations",
+            description: "Charging stations for businesses and parking facilities."
+          },
+          {
+            title: "Smart Charging",
+            description: "Smart charging systems with scheduling and control."
+          },
+          {
+            title: "Maintenance & Support",
+            description: "Complete maintenance and technical support for charging stations."
+          }
+        ]
       }
     }
   },
