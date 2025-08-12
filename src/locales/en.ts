@@ -348,6 +348,18 @@ export const en = {
           "Video and photo storage",
           "Push notifications to mobile"
         ]
+      },
+      ledWardrobe: {
+        title: "LED Wardrobe Lighting Installation",
+        description: "Complete COB LED lighting system inside wardrobe with motion sensor. The system provides uniform and high-quality lighting that activates automatically with presence, saving energy and offering maximum comfort.",
+        features: [
+          "High-quality COB LED strip",
+          "Motion sensor for automatic activation",
+          "Uniform lighting without shadows",
+          "Low energy consumption",
+          "Long LED lifespan",
+          "Easy installation and maintenance"
+        ]
       }
     }
   }
