@@ -54,9 +54,9 @@ export default function HeroSection() {
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 animate-fade-in [animation-delay:300ms] flex items-center justify-center gap-4">
             <img 
-              src="/lovable-uploads/dc93de68-0355-4720-93ea-9f93e0b530ee.png" 
+              src="/lovable-uploads/522a1608-7b88-46b4-9218-874a094c3a4c.png" 
               alt="Smart Home GR Logo" 
-              className="h-12 md:h-16 lg:h-20 w-auto"
+              className="h-16 md:h-20 lg:h-24 w-auto"
             />
             Smart Home GR
           </h1>
