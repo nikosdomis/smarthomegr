@@ -335,6 +335,20 @@ export const en = {
     viewDetails: "Details",
     completedProjects: "Completed Projects",
     satisfiedClients: "Satisfied Clients",
-    yearsExperience: "Years of Experience"
+    yearsExperience: "Years of Experience",
+    featured: {
+      intercom: {
+        title: "Intercom System Installation",
+        description: "Complete intercom system with high-resolution camera, card access control and full management via smartphone app. The system includes color touch screen, night vision and video storage capability.",
+        features: [
+          "7-inch color touch screen",
+          "High-resolution camera with night vision",
+          "RFID card access control",
+          "Smartphone app for remote control",
+          "Video and photo storage",
+          "Push notifications to mobile"
+        ]
+      }
+    }
   }
 };
