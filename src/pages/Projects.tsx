@@ -15,7 +15,8 @@ export default function Projects() {
       <Navbar />
       
       <main className="flex-1">
-        <section className="relative py-20 bg-gradient-to-r from-primary/10 to-white dark:from-primary/10 dark:to-background">
+        <section className="relative py-20 bg-gradient-to-r from-primary/10 to-white dark:from-primary/10 dark:to-background" style={{ backgroundImage: `url('/lovable-uploads/72f68b90-8e45-4cc5-a0d2-d3c8b1b5e709.png')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
+          <div className="absolute inset-0 bg-white/80 dark:bg-background/80"></div>
           <div className="container relative z-10 pt-20">
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-6">
