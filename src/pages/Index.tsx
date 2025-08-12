@@ -80,33 +80,33 @@ export default function Index() {
                 </Button>
               </div>
               
-              <div className="grid grid-cols-2 gap-4 animate-fade-in [animation-delay:300ms]">
-                <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
+              <div className="relative animate-fade-in [animation-delay:300ms]">
+                <div className="aspect-[4/3] rounded-2xl overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400&h=400&fit=crop"
-                    alt="Ηλεκτρολογικές εργασίες" 
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    src="/lovable-uploads/1442a232-0a7e-418e-b1c8-28bb97207e50.png"
+                    alt="Smart home συσκευές και αισθητήρες" 
+                    className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
+                <div className="absolute -bottom-6 -left-6 w-2/3 rounded-2xl overflow-hidden shadow-xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop"
-                    alt="Ηλεκτρολογικός πίνακας" 
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    src="/lovable-uploads/4576d2bf-b167-47fa-a22f-a6756998397d.png"
+                    alt="Έλεγχος έξυπνου σπιτιού από smartphone" 
+                    className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
+                <div className="absolute -top-6 -right-6 w-1/2 rounded-2xl overflow-hidden shadow-xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1593696954020-6ac0c1d1e378?w=400&h=400&fit=crop"
-                    alt="Έξυπνο σπίτι έλεγχος" 
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    src="/lovable-uploads/cc7d9bf9-c4f2-43e1-8321-1284d8cf9763.png"
+                    alt="Smart home setup με laptop και συσκευές" 
+                    className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
+                <div className="absolute -bottom-3 -right-3 w-1/3 rounded-2xl overflow-hidden shadow-xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=400&fit=crop"
-                    alt="Συστήματα αυτοματισμού" 
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    src="/lovable-uploads/bb2394aa-d128-4555-b365-b399ee01020a.png"
+                    alt="Ποικιλία smart home αισθητήρων και συσκευών" 
+                    className="w-full h-full object-cover"
                   />
                 </div>
               </div>
