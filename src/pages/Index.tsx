@@ -90,9 +90,9 @@ export default function Index() {
                 </Button>
               </div>
               
-              <div className="relative animate-fade-in [animation-delay:300ms] grid grid-cols-2 gap-4">
-  {/* Μεγάλη κύρια εικόνα */}
-  <div className="col-span-2 rounded-2xl overflow-hidden">
+             <div className="relative animate-fade-in [animation-delay:300ms]">
+  {/* Εικόνα 1 */}
+  <div className="rounded-2xl overflow-hidden shadow-xl w-2/3">
     <img
       src="/lovable-uploads/1442a232-0a7e-418e-b1c8-28bb97207e50.png"
       alt="Smart home συσκευές και αισθητήρες"
@@ -100,8 +100,8 @@ export default function Index() {
     />
   </div>
 
-  {/* Δεύτερη εικόνα */}
-  <div className="rounded-2xl overflow-hidden">
+  {/* Εικόνα 2 */}
+  <div className="absolute top-6 right-0 w-1/2 rounded-2xl overflow-hidden shadow-xl">
     <img
       src="/lovable-uploads/4576d2bf-b167-47fa-a22f-a6756998397d.png"
       alt="Έλεγχος έξυπνου σπιτιού από smartphone"
@@ -109,8 +109,8 @@ export default function Index() {
     />
   </div>
 
-  {/* Τρίτη εικόνα */}
-  <div className="rounded-2xl overflow-hidden">
+  {/* Εικόνα 3 */}
+  <div className="absolute bottom-0 left-10 w-1/2 rounded-2xl overflow-hidden shadow-xl">
     <img
       src="/lovable-uploads/cc7d9bf9-c4f2-43e1-8321-1284d8cf9763.png"
       alt="Smart home setup με laptop και συσκευές"
@@ -118,8 +118,8 @@ export default function Index() {
     />
   </div>
 
-  {/* Τέταρτη εικόνα */}
-  <div className="rounded-2xl overflow-hidden col-span-2">
+  {/* Εικόνα 4 */}
+  <div className="absolute bottom-10 right-10 w-1/3 rounded-2xl overflow-hidden shadow-xl">
     <img
       src="/lovable-uploads/bb2394aa-d128-4555-b365-b399ee01020a.png"
       alt="Διάταξη έξυπνου σπιτιού"
