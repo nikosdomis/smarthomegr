@@ -6,9 +6,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { CheckCircle } from "lucide-react";
-import smartHomeScreen from "@/assets/smart-home-screen.jpg";
-import automatedBlinds from "@/assets/automated-blinds.jpg";
-import smartBlindsRoom from "@/assets/smart-blinds-room.jpg";
 
 export default function Projects() {
   const { t } = useLanguage();
@@ -429,7 +426,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src={smartHomeScreen}
+                              src="/lovable-uploads/e190c2d0-62b4-4e9d-a22b-93403bd6182f.png"
                               alt="Οθόνη ελέγχου έξυπνου σπιτιού για αυτοματισμό στορίων"
                               className="w-full h-full object-cover"
                             />
@@ -438,7 +435,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src={automatedBlinds}
+                              src="/lovable-uploads/4f04c491-1ead-461d-bdb9-8aa6f90761c8.png"
                               alt="Αυτοματοποιημένα ηλεκτρικά στόρια σε παράθυρο"
                               className="w-full h-full object-cover"
                             />
@@ -447,7 +444,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src={smartBlindsRoom}
+                              src="/lovable-uploads/0e6ace9e-b006-4f02-8030-4ed112f0b755.png"
                               alt="Σαλόνι με έξυπνα αυτοματοποιημένα στόρια"
                               className="w-full h-full object-cover"
                             />
