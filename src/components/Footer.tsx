@@ -119,7 +119,7 @@ export default function Footer() {
         
         <div className="border-t border-border pt-8 mt-8 text-center text-muted-foreground relative">
           {/* Logo positioned on the right side of the border line */}
-          <div className="absolute right-0 -top-8">
+          <div className="absolute right-0 -top-16">
             <img 
               src="/lovable-uploads/a25c13ff-0a30-4acc-82b4-cb409346e62d.png" 
               alt="Smart Home GR Logo" 
