@@ -2,11 +2,7 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Zap, Home, Settings, Wrench, Car } from "lucide-react";
-import electricalBg from "@/assets/electrical-bg.jpg";
-import smartHomeBg from "@/assets/smart-home-bg.jpg";
-import industrialBg from "@/assets/industrial-bg.jpg";
-import evChargingBg from "@/assets/ev-charging-bg.jpg";
+import { Zap, Home, Settings, Wrench } from "lucide-react";
 
 export default function Services() {
   const { t } = useLanguage();
@@ -41,36 +37,20 @@ export default function Services() {
           const icons = {
             electrical: <Zap className="h-8 w-8" />,
             smartHome: <Home className="h-8 w-8" />,
-            industrial: <Settings className="h-8 w-8" />,
-            evCharging: <Car className="h-8 w-8" />
-          };
-          const backgrounds = {
-            electrical: electricalBg,
-            smartHome: smartHomeBg,
-            industrial: industrialBg,
-            evCharging: evChargingBg
+            industrial: <Settings className="h-8 w-8" />
           };
           
           return (
-            <section 
-              key={category} 
-              className="py-16 relative overflow-hidden"
-              style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${backgrounds[category as keyof typeof backgrounds]})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundAttachment: 'fixed'
-              }}
-            >
-              <div className="container relative z-10">
+            <section key={category} className="py-16">
+              <div className="container">
                 <div className="text-center max-w-3xl mx-auto mb-12">
-                  <div className="mb-4 p-3 rounded-full bg-white/20 backdrop-blur-sm text-white inline-flex">
+                  <div className="mb-4 p-3 rounded-full bg-primary/10 text-primary inline-flex">
                     {icons[category as keyof typeof icons]}
                   </div>
-                  <h2 className="text-3xl font-bold mb-4 text-white">
+                  <h2 className="text-3xl font-bold mb-4">
                     {categoryData.title}
                   </h2>
-                  <p className="text-white/80">
+                  <p className="text-muted-foreground">
                     {categoryData.description}
                   </p>
                 </div>
@@ -79,14 +59,14 @@ export default function Services() {
                   {categoryData.items.map((item, index) => (
                     <div 
                       key={index} 
-                      className="bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-xl flex flex-col items-center text-center animate-fade-in hover:bg-white/20 transition-all duration-300"
+                      className="glass-card p-6 rounded-xl flex flex-col items-center text-center animate-fade-in"
                       style={{ animationDelay: `${(index + 1) * 100}ms` }}
                     >
-                      <div className="mb-4 p-3 rounded-full bg-white/20 text-white">
+                      <div className="mb-4 p-3 rounded-full bg-primary/10 text-primary">
                         <Wrench className="h-6 w-6" />
                       </div>
-                      <h3 className="text-xl font-semibold mb-2 text-white">{item.title}</h3>
-                      <p className="text-white/80">{item.description}</p>
+                      <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+                      <p className="text-muted-foreground">{item.description}</p>
                     </div>
                   ))}
                 </div>
