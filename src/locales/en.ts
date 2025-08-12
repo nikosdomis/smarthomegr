@@ -374,6 +374,20 @@ export const en = {
           "Safety and comfort lighting",
           "Economical operating cost"
         ]
+      },
+      dimmableLed: {
+        title: "Dimmable LED Strip with Smart Control",
+        description: "Installation of advanced dimmable LED strip system with control via local switch and mobile app. The solution offers complete intensity control and creation of different lighting scenarios.",
+        features: [
+          "High-quality dimmable LED strip",
+          "Control via local dimmer switch",
+          "Mobile app for remote control",
+          "Creation of lighting scenarios",
+          "Smooth intensity adjustment 0-100%",
+          "Adaptation to different situations",
+          "Energy savings",
+          "Long-term reliability"
+        ]
       }
     }
   }

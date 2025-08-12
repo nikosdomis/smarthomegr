@@ -335,6 +335,72 @@ export default function Projects() {
                   </div>
                 </CardContent>
               </Card>
+
+              {/* Dimmable LED Project */}
+              <Card className="overflow-hidden">
+                <CardHeader>
+                  <div className="flex items-center justify-between mb-4">
+                    <Badge variant="secondary" className="mb-2">
+                      {t.projects.categories.smartHome}
+                    </Badge>
+                  </div>
+                  <CardTitle className="text-2xl md:text-3xl mb-4">
+                    {t.projects.featured.dimmableLed.title}
+                  </CardTitle>
+                  <CardDescription className="text-base leading-relaxed">
+                    {t.projects.featured.dimmableLed.description}
+                  </CardDescription>
+                </CardHeader>
+                
+                <CardContent className="space-y-8">
+                  {/* Image Carousel */}
+                  <div className="relative">
+                    <Carousel className="w-full">
+                      <CarouselContent>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/7ab3dc4f-7d86-463b-89e6-72cbc4769af7.png"
+                              alt="Γραμμικός φωτισμός LED σε εξωτερικό χώρο"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/f62b6240-8960-4980-a7e2-052986ccadb6.png"
+                              alt="Περιμετρικός φωτισμός LED σε βεράντα"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/e4feeee4-a948-4b04-beb9-e4db6957a9be.png"
+                              alt="Ντιμαρισμένος φωτισμός LED σε χαμηλή ένταση"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                      </CarouselContent>
+                      <CarouselPrevious className="left-4" />
+                      <CarouselNext className="right-4" />
+                    </Carousel>
+                  </div>
+
+                  {/* Features List */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {t.projects.featured.dimmableLed.features.map((feature, index) => (
+                      <div key={index} className="flex items-start gap-3">
+                        <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                        <span className="text-sm">{feature}</span>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
               
             </div>
           </div>
