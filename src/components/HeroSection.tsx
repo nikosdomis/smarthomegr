@@ -52,7 +52,12 @@ export default function HeroSection() {
           <span className="inline-block text-white/90 text-lg mb-4 tracking-wide border-b border-white/30 pb-2 animate-fade-in">
             {t.hero.subtitle}
           </span>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 animate-fade-in [animation-delay:300ms]">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 animate-fade-in [animation-delay:300ms] flex items-center justify-center gap-4">
+            <img 
+              src="/lovable-uploads/dc93de68-0355-4720-93ea-9f93e0b530ee.png" 
+              alt="Smart Home GR Logo" 
+              className="h-12 md:h-16 lg:h-20 w-auto"
+            />
             Smart Home GR
           </h1>
           <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto animate-fade-in [animation-delay:600ms]">
