@@ -121,7 +121,7 @@ export default function Footer() {
           {/* Logo positioned on the right side of the border line */}
           <div className="absolute right-0 -top-20">
             <img 
-              src="/lovable-uploads/7040a7b4-ad35-4bb0-b115-a6e1f04e6c50.png" 
+              src="/lovable-uploads/a25c13ff-0a30-4acc-82b4-cb409346e62d.png" 
               alt="Smart Home GR Logo" 
               className="h-32 w-auto opacity-60 hover:opacity-100 transition-opacity duration-300"
             />
