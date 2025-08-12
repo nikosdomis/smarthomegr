@@ -54,14 +54,14 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				sea: {
-					light: '#E8F5E8',
-					DEFAULT: '#4CAF50',
-					dark: '#2E7D32'
+					light: '#F8F9FA',
+					DEFAULT: '#343A40',
+					dark: '#212529'
 				},
 				smart: {
-					light: '#E8F5E8',
-					DEFAULT: '#4CAF50',
-					dark: '#2E7D32'
+					light: '#F8F9FA',
+					DEFAULT: '#343A40',
+					dark: '#212529'
 				}
 			},
 			borderRadius: {
@@ -112,9 +112,9 @@ export default {
 					'100%': { transform: 'translateX(-50%) translateZ(0) scaleY(1)' }
 				},
 				'button-glow': {
-					'0%': { boxShadow: '0 0 5px rgba(76, 175, 80, 0.5)' },
-					'50%': { boxShadow: '0 0 20px rgba(76, 175, 80, 0.8)' },
-					'100%': { boxShadow: '0 0 5px rgba(76, 175, 80, 0.5)' }
+					'0%': { boxShadow: '0 0 5px rgba(52, 58, 64, 0.5)' },
+					'50%': { boxShadow: '0 0 20px rgba(52, 58, 64, 0.8)' },
+					'100%': { boxShadow: '0 0 5px rgba(52, 58, 64, 0.5)' }
 				}
 			},
 			animation: {
