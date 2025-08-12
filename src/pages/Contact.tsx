@@ -70,7 +70,7 @@ export default function Contact() {
               {/* Social Media Links */}
               <div className="flex justify-center items-center gap-6 mt-8">
                 <a 
-                  href="https://facebook.com/smarthomegr" 
+                  href="https://https://www.facebook.com/p/Smart-Home-GR-Electrical-solutions-61565048170292/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="group flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 hover:bg-primary transition-all duration-300"
