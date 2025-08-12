@@ -21,6 +21,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const [language, setLanguage] = useState('el');
   const [t, setT] = useState<Translations>(translations.el);
+  const [isInitialized, setIsInitialized] = useState(false);
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem('language');
@@ -28,6 +29,7 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
       setLanguage(savedLanguage);
       setT(translations[savedLanguage]);
     }
+    setIsInitialized(true);
   }, []);
 
   const changeLanguage = (lang: string) => {
@@ -37,6 +39,15 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
       localStorage.setItem('language', lang);
     }
   };
+
+  // Show loading until context is initialized
+  if (!isInitialized) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary"></div>
+      </div>
+    );
+  }
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage: changeLanguage, t }}>
