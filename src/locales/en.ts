@@ -195,6 +195,50 @@ export const en = {
             description: "Technical support and maintenance of electric vehicle chargers."
           }
         ]
+      },
+      solarPanels: {
+        title: "Solar Panel Systems",
+        description: "Installation and maintenance of photovoltaic systems for energy savings.",
+        items: [
+          {
+            title: "Rooftop Solar Panels",
+            description: "Installation of solar panels on residential and commercial roofs."
+          },
+          {
+            title: "Off-Grid Systems",
+            description: "Solar systems with batteries for complete energy independence."
+          },
+          {
+            title: "Grid-Tied Systems",
+            description: "Solar systems connected to the electrical grid."
+          },
+          {
+            title: "Maintenance & Monitoring",
+            description: "Maintenance and performance monitoring of solar systems."
+          }
+        ]
+      },
+      securitySystems: {
+        title: "Security Systems",
+        description: "Advanced security systems for protecting your property.",
+        items: [
+          {
+            title: "CCTV Cameras",
+            description: "Installation of CCTV cameras with remote monitoring."
+          },
+          {
+            title: "Alarm Systems",
+            description: "Burglar and fire alarm systems with 24-hour monitoring."
+          },
+          {
+            title: "Access Control",
+            description: "Access control systems with cards, codes, and biometrics."
+          },
+          {
+            title: "Smart Systems",
+            description: "Integrated smart security systems with smartphone apps."
+          }
+        ]
       }
     }
   },

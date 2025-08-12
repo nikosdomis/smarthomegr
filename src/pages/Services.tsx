@@ -2,11 +2,13 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Zap, Home, Settings, Wrench, Car } from "lucide-react";
+import { Zap, Home, Settings, Wrench, Car, Sun, Shield } from "lucide-react";
 import electricalWork from "@/assets/electrical-work.jpg";
 import smartHome from "@/assets/smart-home.jpg";
 import industrial from "@/assets/industrial.jpg";
 import evCharging from "@/assets/ev-charging.jpg";
+import solarPanels from "@/assets/solar-panels.jpg";
+import securitySystems from "@/assets/security-systems.jpg";
 
 export default function Services() {
   const { t } = useLanguage();
@@ -43,14 +45,18 @@ export default function Services() {
             electrical: <Zap className="h-8 w-8" />,
             smartHome: <Home className="h-8 w-8" />,
             industrial: <Settings className="h-8 w-8" />,
-            evCharging: <Car className="h-8 w-8" />
+            evCharging: <Car className="h-8 w-8" />,
+            solarPanels: <Sun className="h-8 w-8" />,
+            securitySystems: <Shield className="h-8 w-8" />
           };
           
           const categoryImages = {
             electrical: electricalWork,
             smartHome: smartHome,
             industrial: industrial,
-            evCharging: evCharging
+            evCharging: evCharging,
+            solarPanels: solarPanels,
+            securitySystems: securitySystems
           };
           
           return (
