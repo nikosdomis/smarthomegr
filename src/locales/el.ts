@@ -16,7 +16,7 @@ export const el = {
     scrollDown: "Κύλιση Προς τα Κάτω"
   },
   footer: {
-    description: "Smart Home GR - Electrical Solutions. Εξειδικευμένες ηλεκτρολογικές υπηρεσίες και λύσεις έξυπνου σπιτιού στο Μεσολόγγι με 24ωρη εξυπηρέτηση.",
+    description: "Smart Home GR - Electrical Solutions. Εξειδικευμένες ηλεκτρολογικές υπηρεσίες και λύσεις έξυπνου σπιτιού με 24ωρη εξυπηρέτηση.",
     quickLinks: "Γρήγοροι Σύνδεσμοι",
     contact: "Επικοινωνία",
     newsletter: "Ενημερώσεις",
@@ -24,7 +24,7 @@ export const el = {
     yourEmail: "Η διεύθυνση email σας",
     subscribe: "Εγγραφή",
     allRights: "Όλα τα δικαιώματα κατοχυρωμένα.",
-    address: "Eth. Antistasis 32, Μεσολόγγι 302 00",
+    address: "Eth. Antistasis, Μεσολόγγι 302 00",
     phone: "+30 697 236 2235",
     hours: "Ανοιχτά 24 ώρες"
   },
@@ -99,7 +99,7 @@ export const el = {
       }
     },
     cta: {
-      title: "Έτοιμοι για το Έργο σας;",
+      title: "Ζητήστε Προσφορά !",
       description: "Επικοινωνήστε μαζί μας σήμερα για δωρεάν εκτίμηση και προσφορά προσαρμοσμένη στις ανάγκες σας.",
       callNow: "Καλέστε Τώρα"
     }
