@@ -80,26 +80,33 @@ export default function Index() {
                 </Button>
               </div>
               
-              <div className="relative animate-fade-in [animation-delay:300ms]">
-                <div className="aspect-[4/3] rounded-2xl overflow-hidden">
+              <div className="grid grid-cols-2 gap-4 animate-fade-in [animation-delay:300ms]">
+                <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&h=600&fit=crop"
-                    alt="Smart home electrical work" 
-                    className="w-full h-full object-cover"
+                    src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400&h=400&fit=crop"
+                    alt="Ηλεκτρολογικές εργασίες" 
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   />
                 </div>
-                <div className="absolute -bottom-6 -left-6 w-2/3 rounded-2xl overflow-hidden shadow-xl">
+                <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop"
-                    alt="Electrical panel" 
-                    className="w-full h-full object-cover"
+                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop"
+                    alt="Ηλεκτρολογικός πίνακας" 
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   />
                 </div>
-                <div className="absolute -top-6 -right-6 w-1/2 rounded-2xl overflow-hidden shadow-xl">
+                <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1593696954020-6ac0c1d1e378?w=400&h=300&fit=crop"
-                    alt="Smart home control" 
-                    className="w-full h-full object-cover"
+                    src="https://images.unsplash.com/photo-1593696954020-6ac0c1d1e378?w=400&h=400&fit=crop"
+                    alt="Έξυπνο σπίτι έλεγχος" 
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
+                  <img 
+                    src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=400&fit=crop"
+                    alt="Συστήματα αυτοματισμού" 
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   />
                 </div>
               </div>
