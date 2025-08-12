@@ -117,7 +117,17 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="border-t border-border pt-8 mt-8 text-center text-muted-foreground">
+        <div className="border-t border-border pt-8 mt-8 text-center text-muted-foreground relative">
+          {/* Logo positioned on the border line */}
+          <div className="absolute left-1/2 transform -translate-x-1/2 -top-6">
+            <div className="bg-card px-4">
+              <img 
+                src="/lovable-uploads/7040a7b4-ad35-4bb0-b115-a6e1f04e6c50.png" 
+                alt="Smart Home GR Logo" 
+                className="h-12 w-auto opacity-60 hover:opacity-100 transition-opacity duration-300"
+              />
+            </div>
+          </div>
           <p>&copy; {currentYear} Smart Home GR - Electrical Solutions. {t.footer.allRights}</p>
         </div>
       </div>
