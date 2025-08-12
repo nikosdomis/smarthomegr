@@ -15,34 +15,34 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Γιάννης Παπαδόπουλος",
-    location: "Μεσολόγγι, Ελλάδα",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=faces",
-    content: "Εξαιρετική εργασία! Εγκατέστησαν ολοκληρωμένο σύστημα έξυπνου σπιτιού στο σπίτι μου. Πολύ επαγγελματική προσέγγιση και άψογη δουλειά. Τα συστήνω ανεπιφύλακτα!",
+    name: "Κώστας Παπαδόπουλος",
+    location: "Μεσολόγγι",
+    avatar: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
+    content: "Εξαιρετική εργασία! Εγκατέστησαν ολοκληρωμένο σύστημα KNX στο σπίτι μου. Τώρα ελέγχω όλα τα φώτα και τον κλιματισμό από το κινητό. Πολύ επαγγελματική προσέγγιση και άψογη δουλειά.",
     rating: 5
   },
   {
     id: 2,
-    name: "Μαρία Κωνσταντίνου",
-    location: "Αγρίνιο, Ελλάδα",
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=faces",
-    content: "Άριστη εξυπηρέτηση και ποιότητα! Έλυσαν όλα τα ηλεκτρολογικά προβλήματα του σπιτιού μου γρήγορα και αποτελεσματικά. Πολύ συνεπείς στα ραντεβού.",
+    name: "Μαρία Νικολάου",
+    location: "Αγρίνιο",
+    avatar: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
+    content: "Άριστη εξυπηρέτηση! Έλυσαν όλα τα ηλεκτρολογικά προβλήματα του σπιτιού μου και εγκατέστησαν έξυπνους διακόπτες. Πολύ συνεπείς στα ραντεβού και εξαιρετικές τιμές.",
     rating: 5
   },
   {
     id: 3,
-    name: "Δημήτρης Νικολάου",
-    location: "Πάτρα, Ελλάδα",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=faces",
-    content: "Φανταστική δουλειά στην εγκατάσταση του συστήματος συναγερμού και των έξυπνων διακοπτών. Τώρα ελέγχω όλο το σπίτι από το κινητό μου. Τέλεια εξυπηρέτηση!",
+    name: "Γιάννης Κωνσταντίνου",
+    location: "Πάτρα",
+    avatar: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
+    content: "Φανταστική δουλειά στην εγκατάσταση του συστήματος συναγερμού και home automation. Η 24ωρη τεχνική υποστήριξη είναι πραγματικά εξαιρετική. Τους συνιστώ ανεπιφύλακτα!",
     rating: 5
   },
   {
     id: 4,
-    name: "Ελένη Γεωργίου",
-    location: "Μεσολόγγι, Ελλάδα",
-    avatar: "https://images.unsplash.com/photo-1569913486515-b74bf7751574?w=150&h=150&fit=crop&crop=faces",
-    content: "Πολύ ικανοποιημένη από την εγκατάσταση του φωτισμού LED και των αυτοματισμών. Εξοικονόμησα πολλά χρήματα στον λογαριασμό του ρεύματος. Συνιστώ ανεπιφύλακτα!",
+    name: "Ελένη Μητσοτάκη",
+    location: "Μεσολόγγι",
+    avatar: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
+    content: "Τέλεια εγκατάσταση του φωτισμού LED και των αυτοματισμών. Εξοικονόμησα σημαντικά χρήματα στον λογαριασμό του ρεύματος. Επαγγελματίες με πολυετή εμπειρία!",
     rating: 5
   },
 ];
@@ -107,6 +107,13 @@ export default function TestimonialsSection() {
               >
                 <div className="flex flex-col md:flex-row gap-6 h-full">
                   <div className="flex flex-col items-center md:items-start">
+                    <div className="w-8 h-8 mb-4 flex items-center justify-center">
+                      <img 
+                        src={testimonial.avatar} 
+                        alt="Google" 
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
                     <div className="flex mb-4">
                       {[...Array(5)].map((_, i) => (
                         <Star 
