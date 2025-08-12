@@ -12,7 +12,14 @@ export default function Footer() {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div className="animate-fade-in [animation-delay:100ms]">
-            <h4 className="text-xl font-bold mb-4">Smart Home GR</h4>
+            <div className="flex items-center gap-3 mb-4">
+              <img 
+                src="/lovable-uploads/a25c13ff-0a30-4acc-82b4-cb409346e62d.png" 
+                alt="Smart Home GR Logo" 
+                className="h-10 w-auto"
+              />
+              <h4 className="text-xl font-bold">Smart Home GR</h4>
+            </div>
             <p className="text-muted-foreground mb-4">
               {t.footer.description}
             </p>
