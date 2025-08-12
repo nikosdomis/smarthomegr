@@ -43,9 +43,8 @@ export default function Services() {
           };
           
           return (
-            <section key={category} className="py-16 relative" style={{ backgroundImage: `url('/lovable-uploads/72f68b90-8e45-4cc5-a0d2-d3c8b1b5e709.png')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
-              <div className="absolute inset-0 bg-white/90 dark:bg-background/90"></div>
-              <div className="container relative z-10">
+            <section key={category} className="py-16">
+              <div className="container">
                 <div className="text-center max-w-3xl mx-auto mb-12">
                   <div className="mb-4 p-3 rounded-full bg-primary/10 text-primary inline-flex">
                     {icons[category as keyof typeof icons]}

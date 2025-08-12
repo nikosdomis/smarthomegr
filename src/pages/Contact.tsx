@@ -125,9 +125,8 @@ export default function Contact() {
         </section>
         
         {/* Contact Information & Form */}
-        <section className="section relative" style={{ backgroundImage: `url('/lovable-uploads/72f68b90-8e45-4cc5-a0d2-d3c8b1b5e709.png')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
-          <div className="absolute inset-0 bg-white/90 dark:bg-background/90"></div>
-          <div className="container relative z-10">
+        <section className="section">
+          <div className="container">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               {/* Contact Information */}
               <div className="animate-fade-in [animation-delay:100ms]">
@@ -292,9 +291,8 @@ export default function Contact() {
         </section>
         
         {/* FAQ Section */}
-        <section className="section bg-muted relative" style={{ backgroundImage: `url('/lovable-uploads/72f68b90-8e45-4cc5-a0d2-d3c8b1b5e709.png')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
-          <div className="absolute inset-0 bg-muted/90 dark:bg-muted/90"></div>
-          <div className="container relative z-10">
+        <section className="section bg-muted">
+          <div className="container">
             <div className="max-w-3xl mx-auto text-center mb-12 animate-fade-in">
               <h2 className="text-3xl font-bold mb-4">{t.contact.faq}</h2>
               <p className="text-muted-foreground">

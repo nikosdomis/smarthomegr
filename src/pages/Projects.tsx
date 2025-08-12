@@ -29,9 +29,8 @@ export default function Projects() {
           </div>
         </section>
         
-        <section className="py-16 relative" style={{ backgroundImage: `url('/lovable-uploads/72f68b90-8e45-4cc5-a0d2-d3c8b1b5e709.png')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
-          <div className="absolute inset-0 bg-white/90 dark:bg-background/90"></div>
-          <div className="container relative z-10">
+        <section className="py-16">
+          <div className="container">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
               <div className="p-6">
                 <div className="text-4xl font-bold text-primary mb-2">150+</div>
