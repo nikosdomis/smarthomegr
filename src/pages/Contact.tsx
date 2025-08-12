@@ -70,7 +70,7 @@ export default function Contact() {
               {/* Social Media Links */}
               <div className="flex justify-center items-center gap-6 mt-8">
                 <a 
-                  href="https://https://www.facebook.com/p/Smart-Home-GR-Electrical-solutions-61565048170292/" 
+                  href="https://www.facebook.com/p/Smart-Home-GR-Electrical-solutions-61565048170292/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="group flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 hover:bg-primary transition-all duration-300"
@@ -81,7 +81,7 @@ export default function Contact() {
                 </a>
                 
                 <a 
-                  href="https://youtube.com/smarthomegr" 
+                  href="https://www.youtube.com/@SmartHome_GR" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="group flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 hover:bg-primary transition-all duration-300"
@@ -92,7 +92,7 @@ export default function Contact() {
                 </a>
                 
                 <a 
-                  href="https://tiktok.com/@smarthomegr" 
+                  href="https://www.tiktok.com/@smart.home.gr" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="group flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 hover:bg-primary transition-all duration-300"

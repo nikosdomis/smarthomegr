@@ -68,7 +68,7 @@ export default function Footer() {
               <h5 className="text-lg font-semibold mb-3">Ακολουθήστε μας</h5>
               <div className="flex space-x-3">
                 <a 
-                  href="https://https://www.facebook.com/p/Smart-Home-GR-Electrical-solutions-61565048170292/" 
+                  href="https://www.facebook.com/p/Smart-Home-GR-Electrical-solutions-61565048170292/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-primary/10 hover:bg-primary text-primary hover:text-primary-foreground transition-all duration-300"
@@ -77,7 +77,7 @@ export default function Footer() {
                   <span className="sr-only">Facebook</span>
                 </a>
                 <a 
-                  href="https://youtube.com/smarthomegr" 
+                  href="https://www.youtube.com/@SmartHome_GR" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-primary/10 hover:bg-primary text-primary hover:text-primary-foreground transition-all duration-300"
@@ -86,7 +86,7 @@ export default function Footer() {
                   <span className="sr-only">YouTube</span>
                 </a>
                 <a 
-                  href="https://tiktok.com/@smarthomegr" 
+                  href="https://www.tiktok.com/@smart.home.gr" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-primary/10 hover:bg-primary text-primary hover:text-primary-foreground transition-all duration-300"
