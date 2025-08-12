@@ -35,22 +35,22 @@ export default function About() {
           <div className="container relative z-10">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div>
-                <h2 className="text-3xl font-bold mb-4">{t.about.story.title}</h2>
-                <p className="text-muted-foreground mb-8">{t.about.story.content}</p>
+                <h2 className="text-3xl font-bold mb-4 text-white">{t.about.story.title}</h2>
+                <p className="text-white/80 mb-8">{t.about.story.content}</p>
                 
-                <h2 className="text-3xl font-bold mb-4">{t.about.mission.title}</h2>
-                <p className="text-muted-foreground">{t.about.mission.content}</p>
+                <h2 className="text-3xl font-bold mb-4 text-white">{t.about.mission.title}</h2>
+                <p className="text-white/80">{t.about.mission.content}</p>
               </div>
               
               <div>
-                <h2 className="text-3xl font-bold mb-6">{t.about.values.title}</h2>
+                <h2 className="text-3xl font-bold mb-6 text-white">{t.about.values.title}</h2>
                 <div className="space-y-6">
                   {t.about.values.items.map((value, index) => (
                     <div key={index} className="flex items-start">
                       <CheckCircle className="h-6 w-6 text-primary mr-3 mt-1" />
                       <div>
-                        <h3 className="font-semibold mb-2">{value.title}</h3>
-                        <p className="text-muted-foreground">{value.description}</p>
+                        <h3 className="font-semibold mb-2 text-white">{value.title}</h3>
+                        <p className="text-white/80">{value.description}</p>
                       </div>
                     </div>
                   ))}
