@@ -107,14 +107,7 @@ export default function TestimonialsSection() {
               >
                 <div className="flex flex-col md:flex-row gap-6 h-full">
                   <div className="flex flex-col items-center md:items-start">
-                    <div className="rounded-full overflow-hidden w-20 h-20 mb-4 border-2 border-primary">
-                      <img 
-                        src={testimonial.avatar} 
-                        alt={testimonial.name} 
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                    <div className="flex mb-2">
+                    <div className="flex mb-4">
                       {[...Array(5)].map((_, i) => (
                         <Star 
                           key={i} 
