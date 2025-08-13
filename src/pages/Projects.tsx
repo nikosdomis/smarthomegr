@@ -23,6 +23,13 @@ export default function Projects() {
           <div className="absolute inset-0 bg-white/80 dark:bg-background/80"></div>
           <div className="container relative z-10 pt-20">
             <div className="text-center max-w-3xl mx-auto">
+              <div className="flex justify-center mb-4">
+                <img 
+                  src="/lovable-uploads/a25c13ff-0a30-4acc-82b4-cb409346e62d.png" 
+                  alt="Smart Home GR Logo" 
+                  className="h-12 w-auto"
+                />
+              </div>
               <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-6">
                 {t.projects.title}
               </h1>
