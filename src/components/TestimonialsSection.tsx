@@ -45,6 +45,14 @@ const testimonials: Testimonial[] = [
     content: "Τέλεια εγκατάσταση του φωτισμού LED και των αυτοματισμών. Εξοικονόμησα σημαντικά χρήματα στον λογαριασμό του ρεύματος. Επαγγελματίες με πολυετή εμπειρία!",
     rating: 5
   },
+  {
+    id: 5,
+    name: "Παναγιωτίδης Θ.",
+    location: "Κοζάνη",
+    avatar: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
+    content: "Εξαιρετικος επαγγελματίας, άμεσος και συνεπής. Έκανε εξαιρετική δουλειά σε λογική τιμή, ιδιαίτερα προσεκτικός στον χώρο, αφήνοντας τον καθαρό όπως τον βρήκε. Τον συστήνω ανεπιφύλακτα!",
+    rating: 5
+  },
 ];
 
 export default function TestimonialsSection() {
