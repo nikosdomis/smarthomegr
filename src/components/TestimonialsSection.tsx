@@ -15,15 +15,15 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Κώστας Παπαδόπουλος",
-    location: "Μεσολόγγι",
+    name: "Κώστας Παπ.",
+    location: "Αθήνα",
     avatar: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
     content: "Εξαιρετική εργασία! Εγκατέστησαν ολοκληρωμένο σύστημα KNX στο σπίτι μου. Τώρα ελέγχω όλα τα φώτα και τον κλιματισμό από το κινητό. Πολύ επαγγελματική προσέγγιση και άψογη δουλειά.",
     rating: 5
   },
   {
     id: 2,
-    name: "Μαρία Νικολάου",
+    name: "Νικολάου Μ.",
     location: "Αγρίνιο",
     avatar: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
     content: "Άριστη εξυπηρέτηση! Έλυσαν όλα τα ηλεκτρολογικά προβλήματα του σπιτιού μου και εγκατέστησαν έξυπνους διακόπτες. Πολύ συνεπείς στα ραντεβού και εξαιρετικές τιμές.",
@@ -31,7 +31,7 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 3,
-    name: "Γιάννης Κωνσταντίνου",
+    name: "Γιάννης Κωνστ.",
     location: "Πάτρα",
     avatar: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
     content: "Φανταστική δουλειά στην εγκατάσταση του συστήματος συναγερμού και home automation. Η 24ωρη τεχνική υποστήριξη είναι πραγματικά εξαιρετική. Τους συνιστώ ανεπιφύλακτα!",
@@ -39,8 +39,8 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 4,
-    name: "Ελένη Μητσοτάκη",
-    location: "Μεσολόγγι",
+    name: "Ελένη Κασαβ.",
+    location: "Χαλκιδική",
     avatar: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
     content: "Τέλεια εγκατάσταση του φωτισμού LED και των αυτοματισμών. Εξοικονόμησα σημαντικά χρήματα στον λογαριασμό του ρεύματος. Επαγγελματίες με πολυετή εμπειρία!",
     rating: 5
