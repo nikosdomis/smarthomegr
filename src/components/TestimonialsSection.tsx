@@ -91,7 +91,7 @@ export default function TestimonialsSection() {
   };
   
   useEffect(() => {
-    const interval = setInterval(nextTestimonial, 12000);
+    const interval = setInterval(nextTestimonial, 15000);
     return () => clearInterval(interval);
   }, []);
   
