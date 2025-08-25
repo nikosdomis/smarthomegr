@@ -424,20 +424,20 @@ export default function Projects() {
                     <Carousel className="w-full">
                       <CarouselContent>
                         <CarouselItem>
-                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/c0566e09-ab49-4bce-a923-27914cbc75ca.png"
+                              src="/lovable-uploads/33375fa0-8544-4766-9b48-8bf8cd679fec.png"
                               alt="Παλιός ηλεκτρολογικός πίνακας πριν την αντικατάσταση"
-                              className="w-full h-full object-cover"
+                              className="w-full h-full object-contain bg-muted"
                             />
                           </div>
                         </CarouselItem>
                         <CarouselItem>
-                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/5f0454eb-c0fc-4585-9c40-6e545cdf2bff.png"
+                              src="/lovable-uploads/7c77f354-67a7-4c22-9244-f7e38364e73b.png"
                               alt="Νέος σύγχρονος ηλεκτρολογικός πίνακας μετά την εγκατάσταση"
-                              className="w-full h-full object-cover"
+                              className="w-full h-full object-contain bg-muted"
                             />
                           </div>
                         </CarouselItem>
