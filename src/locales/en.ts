@@ -417,6 +417,21 @@ export const en = {
           "Increased user safety",
           "Compliance with modern standards"
         ]
+      },
+      smartHomeComplete: {
+        title: "Complete Autonomous Smart Home",
+        description: "Comprehensive smart home system with control via mobile phone, living room touch screen, and computer. Includes automatic mobile notifications when camera detects motion with detailed explanation of what was detected.",
+        features: [
+          "Control via mobile app (iOS/Android)",
+          "10'' touch screen installed in living room",
+          "Full control from computer/laptop",
+          "Security cameras with motion detection",
+          "Automatic notifications with event explanations",
+          "Control of lighting, heating, air conditioning",
+          "Real-time temperature and humidity",
+          "Weather conditions display",
+          "Automation based on scenarios and schedules"
+        ]
       }
     }
   }

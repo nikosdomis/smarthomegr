@@ -459,6 +459,126 @@ export default function Projects() {
                 </CardContent>
               </Card>
 
+              {/* Smart Home Complete Project */}
+              <Card className="overflow-hidden">
+                <CardHeader>
+                  <div className="flex items-center justify-between mb-4">
+                    <Badge variant="secondary" className="mb-2">
+                      {t.projects.categories.smartHome}
+                    </Badge>
+                  </div>
+                  <CardTitle className="text-2xl md:text-3xl mb-4">
+                    {t.projects.featured.smartHomeComplete.title}
+                  </CardTitle>
+                  <CardDescription className="text-base leading-relaxed">
+                    {t.projects.featured.smartHomeComplete.description}
+                  </CardDescription>
+                </CardHeader>
+                
+                <CardContent className="space-y-8">
+                  {/* Image Carousel */}
+                  <div className="relative">
+                    <Carousel className="w-full">
+                      <CarouselContent>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/53b0276b-bd41-4566-af01-a4690cf27327.png"
+                              alt="Εφαρμογή έξυπνου σπιτιού σε κινητό με καιρό και έλεγχο κάμερας"
+                              className="w-full h-full object-contain bg-muted"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/55539026-6ad5-4727-9ff3-ba94d826c48a.png"
+                              alt="Διεπαφή έξυπνου σπιτιού σε κινητό με ελέγχους θερμοκρασίας"
+                              className="w-full h-full object-contain bg-muted"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/ef1df4f4-8a9e-40e9-a18f-b231c365582e.png"
+                              alt="Home Assistant σε laptop με πλήρη έλεγχο του έξυπνου σπιτιού"
+                              className="w-full h-full object-contain bg-muted"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/d58df11c-7b2c-43e5-8d92-734846100bba.png"
+                              alt="Πάνελ ελέγχου έξυπνου σπιτιού σε laptop με όλους τους αυτοματισμούς"
+                              className="w-full h-full object-contain bg-muted"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/079410d4-2ca5-44d4-add7-2a3a8a0dd56a.png"
+                              alt="Οθόνη αφής στο σαλόνι με διεπαφή έξυπνου σπιτιού"
+                              className="w-full h-full object-contain bg-muted"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/8e838705-7753-492e-843f-8caa97cb7e24.png"
+                              alt="Εγκατεστημένη οθόνη αφής 10 ιντσών στον τοίχο του σαλονιού"
+                              className="w-full h-full object-contain bg-muted"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/d1d2815c-e16f-488f-9fbf-8b559bfe91c9.png"
+                              alt="Διεπαφή Home Assistant σε οθόνη αφής με πλήρη έλεγχο"
+                              className="w-full h-full object-contain bg-muted"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/c08204ed-49d0-4e72-bbf2-fa5ccddd2fda.png"
+                              alt="Εγκατεστημένη οθόνη αφής σε σαλόνι με view του έξυπνου σπιτιού"
+                              className="w-full h-full object-contain bg-muted"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/ff4fd1c4-9668-4fbc-b1aa-596d24c4b979.png"
+                              alt="Ειδοποίηση στο κινητό για ανίχνευση κίνησης με εξήγηση από κάμερα"
+                              className="w-full h-full object-contain bg-muted"
+                            />
+                          </div>
+                        </CarouselItem>
+                      </CarouselContent>
+                      <CarouselPrevious className="left-4" />
+                      <CarouselNext className="right-4" />
+                    </Carousel>
+                  </div>
+
+                  {/* Features List */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {t.projects.featured.smartHomeComplete.features.map((feature, index) => (
+                      <div key={index} className="flex items-start gap-3">
+                        <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                        <span className="text-sm">{feature}</span>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+
               {/* Automated Blinds Project */}
               <Card className="overflow-hidden">
                 <CardHeader>
