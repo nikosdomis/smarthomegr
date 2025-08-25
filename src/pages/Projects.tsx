@@ -402,6 +402,63 @@ export default function Projects() {
                 </CardContent>
               </Card>
 
+              {/* Electrical Panel Project */}
+              <Card className="overflow-hidden">
+                <CardHeader>
+                  <div className="flex items-center justify-between mb-4">
+                    <Badge variant="secondary" className="mb-2">
+                      {t.projects.categories.electrical}
+                    </Badge>
+                  </div>
+                  <CardTitle className="text-2xl md:text-3xl mb-4">
+                    {t.projects.featured.electricalPanel.title}
+                  </CardTitle>
+                  <CardDescription className="text-base leading-relaxed">
+                    {t.projects.featured.electricalPanel.description}
+                  </CardDescription>
+                </CardHeader>
+                
+                <CardContent className="space-y-8">
+                  {/* Image Carousel */}
+                  <div className="relative">
+                    <Carousel className="w-full">
+                      <CarouselContent>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/c0566e09-ab49-4bce-a923-27914cbc75ca.png"
+                              alt="Παλιός ηλεκτρολογικός πίνακας πριν την αντικατάσταση"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-video rounded-lg overflow-hidden">
+                            <img 
+                              src="/lovable-uploads/5f0454eb-c0fc-4585-9c40-6e545cdf2bff.png"
+                              alt="Νέος σύγχρονος ηλεκτρολογικός πίνακας μετά την εγκατάσταση"
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                      </CarouselContent>
+                      <CarouselPrevious className="left-4" />
+                      <CarouselNext className="right-4" />
+                    </Carousel>
+                  </div>
+
+                  {/* Features List */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {t.projects.featured.electricalPanel.features.map((feature, index) => (
+                      <div key={index} className="flex items-start gap-3">
+                        <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                        <span className="text-sm">{feature}</span>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+
               {/* Automated Blinds Project */}
               <Card className="overflow-hidden">
                 <CardHeader>

@@ -330,7 +330,8 @@ export const en = {
       residential: "Residential",
       commercial: "Commercial",
       industrial: "Industrial",
-      smartHome: "Smart Homes"
+      smartHome: "Smart Homes",
+      electrical: "Electrical Projects"
     },
     viewDetails: "Details",
     completedProjects: "Completed Projects",
@@ -401,6 +402,20 @@ export const en = {
           "Light and motion sensors",
           "Scenario programming",
           "Energy savings and UV protection"
+        ]
+      },
+      electricalPanel: {
+        title: "Electrical Panel Replacement & Installation Modernization",
+        description: "Complete replacement of old electrical panel with modern state-of-the-art equipment. Certified materials were used according to ELOT standards for maximum safety and reliability.",
+        features: [
+          "Certified materials according to ELOT standards",
+          "New technology automatic switches",
+          "High sensitivity differential relays",
+          "Overvoltage protection",
+          "Organized circuit layout",
+          "Energy savings",
+          "Increased user safety",
+          "Compliance with modern standards"
         ]
       }
     }
