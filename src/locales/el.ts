@@ -24,7 +24,7 @@ export const el = {
     yourEmail: "Η διεύθυνση email σας",
     subscribe: "Εγγραφή",
     allRights: "Όλα τα δικαιώματα κατοχυρωμένα.",
-    address: "Eth. Antistasis, Μεσολόγγι 302 00",
+    address: "Ιωνος Δραγουμη, Σέρρες 62122",
     phone: "+30 697 236 2235",
     hours: "Ανοιχτά 24 ώρες"
   },

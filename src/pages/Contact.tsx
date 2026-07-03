@@ -124,8 +124,8 @@ export default function Contact() {
                     <div>
                       <h3 className="font-semibold mb-1">{t.contact.address}</h3>
                       <p className="text-muted-foreground">
-                        Eth. Antistasis 32<br />
-                        Μεσολόγγι 302 00<br />
+                        Ιωνος Δραγουμη<br />
+                        Σέρρες 62122<br />
                         Ελλάδα
                       </p>
                     </div>
