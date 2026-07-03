@@ -24,7 +24,7 @@ export const en = {
     yourEmail: "Your email address",
     subscribe: "Subscribe",
     allRights: "All rights reserved.",
-    address: "Eth. Antistasis, Messolonghi 302 00",
+    address: "Ionos Dragoumi, Serres 62122",
     phone: "+30 697 236 2235",
     hours: "Open 24 hours"
   },
