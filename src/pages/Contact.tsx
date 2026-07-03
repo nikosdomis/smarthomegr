@@ -168,9 +168,9 @@ export default function Contact() {
                 </div>
                 
                 <div className="aspect-video rounded-xl overflow-hidden">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3109.1234567!2d21.4297089!3d38.3737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135e4f4f4f4f4f4f%3A0x4f4f4f4f4f4f4f4f!2sMessolonghi%2C%20Greece!5e0!3m2!1sen!2sgr!4v1628613152777!5m2!1sen!2sgr" width="100%" height="100%" style={{
-                  border: 0
-                }} allowFullScreen loading="lazy" title="Smart Home GR Location - Messolonghi" />
+                  <iframe src="https://maps.google.com/maps?q=41.0833,23.5333&z=15&output=embed&hl=el" width="100%" height="100%" style={{
+                    border: 0
+                  }} allowFullScreen loading="lazy" title="Smart Home GR Location - Serres" />
                 </div>
               </div>
               
