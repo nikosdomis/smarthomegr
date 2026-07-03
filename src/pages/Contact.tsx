@@ -124,7 +124,7 @@ export default function Contact() {
                     <div>
                       <h3 className="font-semibold mb-1">{t.contact.address}</h3>
                       <p className="text-muted-foreground">
-                        Ιωνος Δραγουμη<br />
+                        Ίωνος Δραγούμη<br />
                         Σέρρες 62122<br />
                         Ελλάδα
                       </p>
