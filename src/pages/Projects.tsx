@@ -24,7 +24,7 @@ export default function Projects() {
       <Navbar />
       
       <main className="flex-1">
-        <section className="relative py-20 bg-gradient-to-r from-primary/10 to-white dark:from-primary/10 dark:to-background" style={{ backgroundImage: `url('/lovable-uploads/72f68b90-8e45-4cc5-a0d2-d3c8b1b5e709.png')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
+        <section className="relative py-20 bg-gradient-to-r from-primary/10 to-white dark:from-primary/10 dark:to-background" style={{ backgroundImage: `url('/smarthomegr/lovable-uploads/72f68b90-8e45-4cc5-a0d2-d3c8b1b5e709.png')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
           <div className="absolute inset-0 bg-white/80 dark:bg-background/80"></div>
           <div className="container relative z-10 pt-20">
             <div className="text-center max-w-3xl mx-auto">
@@ -86,7 +86,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/bca7083d-6baa-4452-93c4-1e30c8f894d3.png"
+                              src="/smarthomegr/lovable-uploads/bca7083d-6baa-4452-93c4-1e30c8f894d3.png"
                               alt="Θυροτηλεόραση με έγχρωμη οθόνη και κουμπιά ελέγχου"
                               className="w-full h-full object-cover"
                             />
@@ -95,7 +95,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/7abf9671-1090-4643-a313-8c0048a9117b.png"
+                              src="/smarthomegr/lovable-uploads/7abf9671-1090-4643-a313-8c0048a9117b.png"
                               alt="Εγκατεστημένη θυροτηλεόραση σε τοίχο με διακόπτες"
                               className="w-full h-full object-cover"
                             />
@@ -104,7 +104,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/d06f734b-c422-4d97-9d16-0856362c5222.png"
+                              src="/smarthomegr/lovable-uploads/d06f734b-c422-4d97-9d16-0856362c5222.png"
                               alt="Πάνελ ελέγχου εισόδου με κάμερα και αναγνώστη καρτών"
                               className="w-full h-full object-cover"
                             />
@@ -152,7 +152,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/444c6354-d57c-441c-a3aa-52511ed72ccd.png"
+                              src="/smarthomegr/lovable-uploads/444c6354-d57c-441c-a3aa-52511ed72ccd.png"
                               alt="Ντουλάπα με φωτισμό LED και ράφια"
                               className="w-full h-full object-cover"
                             />
@@ -161,7 +161,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/76584640-8c13-40d0-8e6d-f128320e5003.png"
+                              src="/smarthomegr/lovable-uploads/76584640-8c13-40d0-8e6d-f128320e5003.png"
                               alt="Λεπτομέρεια ταινίας LED COB σε ντουλάπα"
                               className="w-full h-full object-cover"
                             />
@@ -170,7 +170,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/0ee6db5f-b4c1-4043-9b38-26af95d547d0.png"
+                              src="/smarthomegr/lovable-uploads/0ee6db5f-b4c1-4043-9b38-26af95d547d0.png"
                               alt="Εσωτερικό ντουλάπας με φωτισμό LED"
                               className="w-full h-full object-cover"
                             />
@@ -179,7 +179,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/b64a2a78-a8d9-49b3-afc3-6da1d6fc4ae7.png"
+                              src="/smarthomegr/lovable-uploads/b64a2a78-a8d9-49b3-afc3-6da1d6fc4ae7.png"
                               alt="Ολοκληρωμένη ντουλάπα με φωτισμό LED"
                               className="w-full h-full object-cover"
                             />
@@ -188,7 +188,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/4675449c-abfc-42af-a85b-0f0a44793919.png"
+                              src="/smarthomegr/lovable-uploads/4675449c-abfc-42af-a85b-0f0a44793919.png"
                               alt="Ντουλάπα με ανοιχτές πόρτες και φωτισμό LED"
                               className="w-full h-full object-cover"
                             />
@@ -236,7 +236,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/ceiling-led-fixture.jpg"
+                              src="/smarthomegr/lovable-uploads/ceiling-led-fixture.jpg"
                               alt="Εγκατεστημένος φωτισμός οροφής LED"
                               className="w-full h-full object-cover"
                             />
@@ -245,7 +245,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/pendant-led-light.jpg"
+                              src="/smarthomegr/lovable-uploads/pendant-led-light.jpg"
                               alt="Μοντέρνος κρεμαστός φωτισμός LED"
                               className="w-full h-full object-cover"
                             />
@@ -254,7 +254,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/linear-led-ceiling.jpg"
+                              src="/smarthomegr/lovable-uploads/linear-led-ceiling.jpg"
                               alt="Γραμμικός φωτισμός LED σε οροφή"
                               className="w-full h-full object-cover"
                             />
@@ -263,7 +263,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/kitchen-led-strips.jpg"
+                              src="/smarthomegr/lovable-uploads/kitchen-led-strips.jpg"
                               alt="Φωτισμός κουζίνας κάτω από ντουλάπια"
                               className="w-full h-full object-cover"
                             />
@@ -272,7 +272,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/track-led-spots.jpg"
+                              src="/smarthomegr/lovable-uploads/track-led-spots.jpg"
                               alt="Σποτ φωτισμός σε ράγα"
                               className="w-full h-full object-cover"
                             />
@@ -281,7 +281,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/smart-intercom-led.jpg"
+                              src="/smarthomegr/lovable-uploads/smart-intercom-led.jpg"
                               alt="Σύστημα θυροτηλεόρασης με φωτισμό LED"
                               className="w-full h-full object-cover"
                             />
@@ -290,7 +290,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/floor-led-lighting.jpg"
+                              src="/smarthomegr/lovable-uploads/floor-led-lighting.jpg"
                               alt="Φωτισμός δαπέδου LED κάτω από πόρτα"
                               className="w-full h-full object-cover"
                             />
@@ -299,7 +299,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/mirror-led-backlight.jpg"
+                              src="/smarthomegr/lovable-uploads/mirror-led-backlight.jpg"
                               alt="Καθρέφτης μπάνιου με οπίσθιο φωτισμό LED"
                               className="w-full h-full object-cover"
                             />
@@ -308,7 +308,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/bathroom-ceiling-led.jpg"
+                              src="/smarthomegr/lovable-uploads/bathroom-ceiling-led.jpg"
                               alt="Φωτισμός οροφής μπάνιου με ταινία LED"
                               className="w-full h-full object-cover"
                             />
@@ -317,7 +317,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/shower-ceiling-led.jpg"
+                              src="/smarthomegr/lovable-uploads/shower-ceiling-led.jpg"
                               alt="Φωτισμός ντουζιέρας με ταινία LED στην οροφή"
                               className="w-full h-full object-cover"
                             />
@@ -365,7 +365,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/423759a7-9b01-494a-a8f3-28139dc33a42.png"
+                              src="/smarthomegr/lovable-uploads/423759a7-9b01-494a-a8f3-28139dc33a42.png"
                               alt="Γραμμικός φωτισμός LED σε εξωτερικό χώρο"
                               className="w-full h-full object-cover"
                             />
@@ -374,7 +374,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/88cfac4b-f082-484d-b6d1-5ad16fbf6576.png"
+                              src="/smarthomegr/lovable-uploads/88cfac4b-f082-484d-b6d1-5ad16fbf6576.png"
                               alt="Περιμετρικός φωτισμός LED σε βεράντα"
                               className="w-full h-full object-cover"
                             />
@@ -383,7 +383,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/95318472-d238-4e79-a2c7-fb096bb7be54.png"
+                              src="/smarthomegr/lovable-uploads/95318472-d238-4e79-a2c7-fb096bb7be54.png"
                               alt="Ντιμαρισμένος φωτισμός LED σε χαμηλή ένταση"
                               className="w-full h-full object-cover"
                             />
@@ -431,7 +431,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/33375fa0-8544-4766-9b48-8bf8cd679fec.png"
+                              src="/smarthomegr/lovable-uploads/33375fa0-8544-4766-9b48-8bf8cd679fec.png"
                               alt="Παλιός ηλεκτρολογικός πίνακας πριν την αντικατάσταση"
                               className="w-full h-full object-contain bg-muted"
                             />
@@ -440,7 +440,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/7c77f354-67a7-4c22-9244-f7e38364e73b.png"
+                              src="/smarthomegr/lovable-uploads/7c77f354-67a7-4c22-9244-f7e38364e73b.png"
                               alt="Νέος σύγχρονος ηλεκτρολογικός πίνακας μετά την εγκατάσταση"
                               className="w-full h-full object-contain bg-muted"
                             />
@@ -488,7 +488,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/53b0276b-bd41-4566-af01-a4690cf27327.png"
+                              src="/smarthomegr/lovable-uploads/53b0276b-bd41-4566-af01-a4690cf27327.png"
                               alt="Εφαρμογή έξυπνου σπιτιού σε κινητό με καιρό και έλεγχο κάμερας"
                               className="w-full h-full object-contain bg-muted"
                             />
@@ -497,7 +497,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/55539026-6ad5-4727-9ff3-ba94d826c48a.png"
+                              src="/smarthomegr/lovable-uploads/55539026-6ad5-4727-9ff3-ba94d826c48a.png"
                               alt="Διεπαφή έξυπνου σπιτιού σε κινητό με ελέγχους θερμοκρασίας"
                               className="w-full h-full object-contain bg-muted"
                             />
@@ -506,7 +506,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/ef1df4f4-8a9e-40e9-a18f-b231c365582e.png"
+                              src="/smarthomegr/lovable-uploads/ef1df4f4-8a9e-40e9-a18f-b231c365582e.png"
                               alt="Home Assistant σε laptop με πλήρη έλεγχο του έξυπνου σπιτιού"
                               className="w-full h-full object-contain bg-muted"
                             />
@@ -515,7 +515,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/d58df11c-7b2c-43e5-8d92-734846100bba.png"
+                              src="/smarthomegr/lovable-uploads/d58df11c-7b2c-43e5-8d92-734846100bba.png"
                               alt="Πάνελ ελέγχου έξυπνου σπιτιού σε laptop με όλους τους αυτοματισμούς"
                               className="w-full h-full object-contain bg-muted"
                             />
@@ -524,7 +524,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/079410d4-2ca5-44d4-add7-2a3a8a0dd56a.png"
+                              src="/smarthomegr/lovable-uploads/079410d4-2ca5-44d4-add7-2a3a8a0dd56a.png"
                               alt="Οθόνη αφής στο σαλόνι με διεπαφή έξυπνου σπιτιού"
                               className="w-full h-full object-contain bg-muted"
                             />
@@ -533,7 +533,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/8e838705-7753-492e-843f-8caa97cb7e24.png"
+                              src="/smarthomegr/lovable-uploads/8e838705-7753-492e-843f-8caa97cb7e24.png"
                               alt="Εγκατεστημένη οθόνη αφής 10 ιντσών στον τοίχο του σαλονιού"
                               className="w-full h-full object-contain bg-muted"
                             />
@@ -542,7 +542,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/d1d2815c-e16f-488f-9fbf-8b559bfe91c9.png"
+                              src="/smarthomegr/lovable-uploads/d1d2815c-e16f-488f-9fbf-8b559bfe91c9.png"
                               alt="Διεπαφή Home Assistant σε οθόνη αφής με πλήρη έλεγχο"
                               className="w-full h-full object-contain bg-muted"
                             />
@@ -551,7 +551,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/c08204ed-49d0-4e72-bbf2-fa5ccddd2fda.png"
+                              src="/smarthomegr/lovable-uploads/c08204ed-49d0-4e72-bbf2-fa5ccddd2fda.png"
                               alt="Εγκατεστημένη οθόνη αφής σε σαλόνι με view του έξυπνου σπιτιού"
                               className="w-full h-full object-contain bg-muted"
                             />
@@ -560,7 +560,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/ff4fd1c4-9668-4fbc-b1aa-596d24c4b979.png"
+                              src="/smarthomegr/lovable-uploads/ff4fd1c4-9668-4fbc-b1aa-596d24c4b979.png"
                               alt="Ειδοποίηση στο κινητό για ανίχνευση κίνησης με εξήγηση από κάμερα"
                               className="w-full h-full object-contain bg-muted"
                             />
@@ -608,7 +608,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/e190c2d0-62b4-4e9d-a22b-93403bd6182f.png"
+                              src="/smarthomegr/lovable-uploads/e190c2d0-62b4-4e9d-a22b-93403bd6182f.png"
                               alt="Οθόνη ελέγχου έξυπνου σπιτιού για αυτοματισμό στορίων"
                               className="w-full h-full object-cover"
                             />
@@ -617,7 +617,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/4f04c491-1ead-461d-bdb9-8aa6f90761c8.png"
+                              src="/smarthomegr/lovable-uploads/4f04c491-1ead-461d-bdb9-8aa6f90761c8.png"
                               alt="Αυτοματοποιημένα ηλεκτρικά στόρια σε παράθυρο"
                               className="w-full h-full object-cover"
                             />
@@ -626,7 +626,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-video rounded-lg overflow-hidden">
                             <img 
-                              src="/lovable-uploads/0e6ace9e-b006-4f02-8030-4ed112f0b755.png"
+                              src="/smarthomegr/lovable-uploads/0e6ace9e-b006-4f02-8030-4ed112f0b755.png"
                               alt="Σαλόνι με έξυπνα αυτοματοποιημένα στόρια"
                               className="w-full h-full object-cover"
                             />
@@ -673,7 +673,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img
-                              src="/lovable-uploads/vintage-install-1.jpeg"
+                              src="/smarthomegr/lovable-uploads/vintage-install-1.jpeg"
                               alt="Ρετρό φωτιστικό οροφής με πορσελάνινους διακόπτες σε ξύλινες βάσεις"
                               className="w-full h-full object-contain bg-muted"
                             />
@@ -682,7 +682,7 @@ export default function Projects() {
                         <CarouselItem>
                           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                             <img
-                              src="/lovable-uploads/vintage-install-2.jpeg"
+                              src="/smarthomegr/lovable-uploads/vintage-install-2.jpeg"
                               alt="Πορσελάνινος διακόπτης με ξύλινη βάση και πλεκτό υφασμάτινο καλώδιο"
                               className="w-full h-full object-contain bg-muted"
                             />
