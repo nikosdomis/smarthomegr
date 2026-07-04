@@ -20,7 +20,7 @@ const App = () => (
       <LanguageProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/smarthomegr/">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/services" element={<Services />} />
