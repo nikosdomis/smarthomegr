@@ -705,7 +705,85 @@ export default function Projects() {
                 </CardContent>
               </Card>
 
+              {/* Pump Control Project */}
+              <Card className="overflow-hidden">
+                <CardHeader>
+                  <div className="flex items-center justify-between mb-4">
+                    <Badge variant="secondary" className="mb-2">
+                      {t.projects.categories.electrical}
+                    </Badge>
+                  </div>
+                  <CardTitle className="text-2xl md:text-3xl mb-4">
+                    {t.projects.featured.pumpControl.title}
+                  </CardTitle>
+                  <CardDescription className="text-base leading-relaxed">
+                    {t.projects.featured.pumpControl.description}
+                  </CardDescription>
+                </CardHeader>
+
+                <CardContent className="space-y-8">
+                  <div className="relative">
+                    <Carousel className="w-full">
+                      <CarouselContent>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img
+                              src={pumpPanelOpen.url}
+                              alt="Ανοιχτός πίνακας αυτόματου ελέγχου αντλίας με ρελέ και ασφάλεια"
+                              className="w-full h-full object-contain bg-muted"
+                              loading="lazy"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img
+                              src={pumpPanelClosed.url}
+                              alt="Στεγανό κουτί IP65 πίνακα ελέγχου αντλίας"
+                              className="w-full h-full object-contain bg-muted"
+                              loading="lazy"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img
+                              src={pumpWiring.url}
+                              alt="Καλωδίωση πίνακα αυτόματου ελέγχου αντλίας"
+                              className="w-full h-full object-contain bg-muted"
+                              loading="lazy"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img
+                              src={waterLevelSensor.url}
+                              alt="Αισθητήρας στάθμης νερού σε δεξαμενή"
+                              className="w-full h-full object-contain bg-muted"
+                              loading="lazy"
+                            />
+                          </div>
+                        </CarouselItem>
+                      </CarouselContent>
+                      <CarouselPrevious className="left-4" />
+                      <CarouselNext className="right-4" />
+                    </Carousel>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {t.projects.featured.pumpControl.features.map((feature, index) => (
+                      <div key={index} className="flex items-start gap-3">
+                        <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                        <span className="text-sm">{feature}</span>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+
             </div>
+
 
           </div>
         </section>
