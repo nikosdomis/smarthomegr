@@ -8,13 +8,16 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight, Zap, Clock, Shield, Settings, Home, Wrench } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+
 export default function Index() {
   const {
     t
   } = useLanguage();
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  
   const features = [{
     icon: <Zap className="h-8 w-8 text-primary" />,
     title: t.home.features.items.experience.title,
@@ -40,6 +43,7 @@ export default function Index() {
     title: t.home.features.items.support.title,
     description: t.home.features.items.support.description
   }];
+  
   return <div className="min-h-screen flex flex-col">
       <Navbar />
       
@@ -48,7 +52,7 @@ export default function Index() {
         
         {/* Welcome Section */}
         <section id="welcome" className="section relative" style={{
-        backgroundImage: 'url(/lovable-uploads/bb2394aa-d128-4555-b365-b399ee01020a.png)',
+        backgroundImage: 'url(/smarthomegr/lovable-uploads/bb2394aa-d128-4555-b365-b399ee01020a.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
@@ -78,7 +82,7 @@ export default function Index() {
               
               <div className="relative animate-fade-in [animation-delay:300ms]">
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden">
-                  <img src="/lovable-uploads/1442a232-0a7e-418e-b1c8-28bb97207e50.png" alt="Smart home συσκευές και αισθητήρες" className="w-full h-full object-cover" />
+                  <img src="/smarthomegr/lovable-uploads/1442a232-0a7e-418e-b1c8-28bb97207e50.png" alt="Smart home συσκευές και αισθητήρες" className="w-full h-full object-cover" />
                 </div>
                 <div className="absolute -bottom-6 -left-6 w-2/3 rounded-2xl overflow-hidden shadow-xl">
                   
