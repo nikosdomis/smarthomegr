@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ChevronDown } from "lucide-react";
@@ -29,7 +28,7 @@ export default function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/lovable-uploads/fb26d891-4915-4760-b040-9cb27b209239.png')",
+          backgroundImage: "url('/smarthomegr/lovable-uploads/fb26d891-4915-4760-b040-9cb27b209239.png')",
           transform: `translateY(${backgroundY}px)`,
           backgroundPosition: `center ${50 + scrollY * 0.05}%`
         }}
@@ -54,7 +53,7 @@ export default function HeroSection() {
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-rubik font-bold text-white mb-6 animate-fade-in [animation-delay:300ms] flex items-center justify-center gap-4">
             <img 
-              src="/lovable-uploads/522a1608-7b88-46b4-9218-874a094c3a4c.png" 
+              src="/smarthomegr/lovable-uploads/522a1608-7b88-46b4-9218-874a094c3a4c.png" 
               alt="Smart Home GR Logo" 
               className="h-20 md:h-24 lg:h-28 w-auto ml-2 transition-all duration-300 hover:scale-110 hover:brightness-125 hover:filter hover:drop-shadow-lg cursor-pointer"
             />
