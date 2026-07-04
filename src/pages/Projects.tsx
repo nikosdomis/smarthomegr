@@ -644,8 +644,64 @@ export default function Projects() {
                   </div>
                 </CardContent>
               </Card>
-              
+
+              {/* Vintage Installation Project */}
+              <Card className="overflow-hidden">
+                <CardHeader>
+                  <div className="flex items-center justify-between mb-4">
+                    <Badge variant="secondary" className="mb-2">
+                      {t.projects.categories.electrical}
+                    </Badge>
+                  </div>
+                  <CardTitle className="text-2xl md:text-3xl mb-4">
+                    {t.projects.featured.vintageInstallation.title}
+                  </CardTitle>
+                  <CardDescription className="text-base leading-relaxed">
+                    {t.projects.featured.vintageInstallation.description}
+                  </CardDescription>
+                </CardHeader>
+
+                <CardContent className="space-y-8">
+                  <div className="relative">
+                    <Carousel className="w-full">
+                      <CarouselContent>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img
+                              src="/lovable-uploads/vintage-install-1.jpeg"
+                              alt="Ρετρό φωτιστικό οροφής με πορσελάνινους διακόπτες σε ξύλινες βάσεις"
+                              className="w-full h-full object-contain bg-muted"
+                            />
+                          </div>
+                        </CarouselItem>
+                        <CarouselItem>
+                          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                            <img
+                              src="/lovable-uploads/vintage-install-2.jpeg"
+                              alt="Πορσελάνινος διακόπτης με ξύλινη βάση και πλεκτό υφασμάτινο καλώδιο"
+                              className="w-full h-full object-contain bg-muted"
+                            />
+                          </div>
+                        </CarouselItem>
+                      </CarouselContent>
+                      <CarouselPrevious className="left-4" />
+                      <CarouselNext className="right-4" />
+                    </Carousel>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {t.projects.featured.vintageInstallation.features.map((feature, index) => (
+                      <div key={index} className="flex items-start gap-3">
+                        <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                        <span className="text-sm">{feature}</span>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+
             </div>
+
           </div>
         </section>
       </main>
