@@ -6,6 +6,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { CheckCircle } from "lucide-react";
+import pumpPanelOpen from "@/assets/pump-control-panel-open-enhanced.jpg.asset.json";
+import pumpPanelClosed from "@/assets/pump-control-panel-closed.jpeg.asset.json";
+import pumpWiring from "@/assets/pump-control-wiring-enhanced.jpg.asset.json";
+import waterLevelSensor from "@/assets/water-level-sensor.jpg.asset.json";
+
 
 export default function Projects() {
   const { t } = useLanguage();
