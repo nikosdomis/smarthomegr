@@ -432,7 +432,22 @@ export const en = {
           "Weather conditions display",
           "Automation based on scenarios and schedules"
         ]
+      },
+      vintageInstallation: {
+        title: "Electrical Installation with Vintage Materials",
+        description: "Distinctive electrical installation using selected vintage materials. Porcelain switches with wooden bases, braided fabric cable and retro fixtures that give the space a unique character, combining period aesthetics with modern safety.",
+        features: [
+          "Porcelain switches and sockets",
+          "Wooden vintage mounting bases",
+          "Braided fabric cable",
+          "Retro metal light fixtures",
+          "Exposed cable routing",
+          "Modern safety standards",
+          "Handcrafted installation",
+          "Unique character for the space"
+        ]
       }
+
     }
   }
 };
