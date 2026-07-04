@@ -446,7 +446,22 @@ export const en = {
           "Handcrafted installation",
           "Unique character for the space"
         ]
+      },
+      pumpControl: {
+        title: "Automatic Water Pump Control",
+        description: "Complete automatic water pump control panel with piezostatic pressure switch and level sensor. IP65 waterproof enclosure with circuit breaker, power relay and fault/operation indicator lights for full protection and monitoring of the pump.",
+        features: [
+          "IP65 waterproof enclosure AC400V/DC1500V",
+          "Relay and pressure switch fault indicator",
+          "Relay and level sensor fault indicator",
+          "Relay and pump operation indicator",
+          "C20 protection circuit breaker",
+          "25A power relay for pump switching",
+          "Dry-run protection",
+          "Automatic shutdown on fault"
+        ]
       }
+
 
     }
   }
