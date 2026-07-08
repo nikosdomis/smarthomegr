@@ -149,7 +149,6 @@ export default function Contact() {
                     <div>
                       <h3 className="font-semibold mb-1">{t.contact.email}</h3>
                       <p className="text-muted-foreground">nikos_domis@hotmail.com</p>
-                      <p className="text-muted-foreground">nikos_domis@hotmail.com</p>
                     </div>
                   </div>
                   
