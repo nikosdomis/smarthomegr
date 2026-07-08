@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="animate-fade-in [animation-delay:100ms]">
             <div className="flex items-center gap-3 mb-4">
               <img 
-                src="/lovable-uploads/a25c13ff-0a30-4acc-82b4-cb409346e62d.png" 
+                src="/smarthomegr/lovable-uploads/a25c13ff-0a30-4acc-82b4-cb409346e62d.png" 
                 alt="Smart Home GR Logo" 
                 className="h-10 w-auto"
               />
@@ -128,7 +128,7 @@ export default function Footer() {
           {/* Logo positioned on the right side of the border line */}
           <div className="absolute right-0 -top-16">
             <img 
-              src="/lovable-uploads/a25c13ff-0a30-4acc-82b4-cb409346e62d.png" 
+              src="/smarthomegr/lovable-uploads/a25c13ff-0a30-4acc-82b4-cb409346e62d.png" 
               alt="Smart Home GR Logo" 
               className="h-16 w-auto opacity-60 hover:opacity-100 transition-opacity duration-300"
             />
